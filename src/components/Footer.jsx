@@ -31,7 +31,7 @@ function Footer() {
 
         <div>
           <h3>Contact</h3>
-          <a href="mailto:hello@getitbunny.co.za">hello@getitbunny.co.za</a>
+          <a href="mailto:gititbunny@gmail.com">gititbunny@gmail.com</a>
           <a
             href="https://wa.me/27000000000?text=Hi%20Get%20It%20Bunny%2C%20I%E2%80%99m%20interested%20in%20starting%20a%20website%20project."
             target="_blank"
