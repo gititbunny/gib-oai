@@ -447,6 +447,10 @@ h1 {
     gap: 44px;
   }
 
+    .audience-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
   .footer-grid {
     grid-template-columns: 1fr 1fr;
   }
@@ -475,8 +479,6 @@ h1 {
     font-size: 0.72rem;
     padding: 8px 10px;
   }
-
- 
 
   .hero-mini-card {
     margin-top: 22px;
