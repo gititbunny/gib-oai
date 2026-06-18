@@ -371,7 +371,7 @@ h1 {
 /* Responsive */
 
 @media (max-width: 900px) {
-  .navbar {
+ .navbar {
     align-items: flex-start;
     flex-direction: column;
     padding: 18px 0;
@@ -385,6 +385,7 @@ h1 {
 
   .hero-grid {
     grid-template-columns: 1fr;
+    gap: 44px;
   }
 
   .footer-grid {
