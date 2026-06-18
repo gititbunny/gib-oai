@@ -485,6 +485,18 @@ h1 {
     padding: 18px;
   }
 
+    .section-block {
+    padding: 70px 0;
+  }
+
+  .audience-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .audience-card {
+    min-height: 94px;
+  }
+
   .footer-grid {
     grid-template-columns: 1fr;
   }
