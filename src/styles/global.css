@@ -147,7 +147,28 @@ h1 {
   line-height: 1.8;
 }
 
-/* Hero */
+.section-block {
+  padding: 96px 0;
+}
+
+.section-heading {
+  max-width: 760px;
+  margin-bottom: 42px;
+}
+
+.section-heading h2 {
+  max-width: 720px;
+  font-size: clamp(2rem, 4vw, 3.7rem);
+  line-height: 1;
+  letter-spacing: -0.055em;
+  margin-bottom: 18px;
+}
+
+.section-heading p:last-child {
+  color: var(--color-muted);
+  font-size: 1.08rem;
+  line-height: 1.8;
+}
 
 /* Hero */
 
