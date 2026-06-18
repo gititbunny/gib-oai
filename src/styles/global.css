@@ -408,11 +408,23 @@ h1 {
     font-size: 0.9rem;
   }
 
-  .footer-grid {
-    grid-template-columns: 1fr;
+  .hero-video-card {
+    border-radius: 24px;
   }
 
-  .hero-card {
-    padding: 26px;
+  .floating-tag {
+    font-size: 0.72rem;
+    padding: 8px 10px;
+  }
+
+ 
+
+  .hero-mini-card {
+    margin-top: 22px;
+    padding: 18px;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
   }
 }
