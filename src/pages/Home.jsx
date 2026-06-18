@@ -27,33 +27,13 @@ function Home() {
           </div>
         </div>
 
-        <div className="hero-visual" aria-label="Website design preview">
-          <div className="hero-image-card">
-            <img
-              src="/images/hero-workspace.jpg"
-              alt="Creative workspace with laptop for website design"
-            />
-
-            <div className="floating-card floating-card-top">
-              <span>01</span>
-              <p>Landing Page Design</p>
-            </div>
-
-            <div className="floating-card floating-card-middle">
-              <span>02</span>
-              <p>WhatsApp Booking Flow</p>
-            </div>
-
-            <div className="floating-card floating-card-bottom">
-              <span>03</span>
-              <p>Launch Graphics Included</p>
-            </div>
-          </div>
-
-          <div className="hero-mini-card">
-            <p className="hero-card-label">Website + Launch Kit</p>
-            <h2>Look official. Get inquiries. Launch with confidence.</h2>
-          </div>
+        <div className="hero-card">
+          <p className="hero-card-label">Website + Launch Kit</p>
+          <h2>Look official. Get inquiries. Launch with confidence.</h2>
+          <p>
+            Clean layouts, mobile-friendly pages, WhatsApp booking flow, and
+            branded graphics that match your business.
+          </p>
         </div>
       </div>
     </section>
