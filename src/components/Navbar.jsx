@@ -6,7 +6,7 @@ function Navbar() {
       <nav className="navbar container">
         <Link to="/" className="logo">
           <span className="logo-mark">GIB</span>
-          <span className="logo-text">Get It Bunny</span>
+          <span className="logo-text">Git It Bunny</span>
         </Link>
 
         <div className="nav-links">
