@@ -234,6 +234,55 @@ function Home() {
           </div>
         </div>
       </section>
+
+    <section className="section-block packages-preview-section">
+  <div className="container">
+    <div className="section-heading section-heading-center">
+      <p className="eyebrow">Featured Packages</p>
+      <h2>Choose a package that fits where your business is right now.</h2>
+      <p>
+        Start with a simple landing page, build a full business website, or
+        create a booking-ready site with launch graphics included.
+      </p>
+    </div>
+
+    <div className="packages-preview-grid">
+      {packagePreviews.map((item) => (
+        <article
+          className={`package-card ${item.featured ? "featured-package" : ""}`}
+          key={item.name}
+        >
+          {item.featured && <span className="package-badge">Popular</span>}
+
+          <div className="package-card-header">
+            <h3>{item.name}</h3>
+            <p>{item.bestFor}</p>
+          </div>
+
+          <div className="package-price">{item.price}</div>
+
+          <ul className="package-features">
+            {item.features.map((feature) => (
+              <li key={feature}>{feature}</li>
+            ))}
+          </ul>
+
+          <Link to="/pricing" className="btn btn-package">
+            See Full Pricing
+          </Link>
+        </article>
+      ))}
+    </div>
+
+    <p className="pricing-note">
+      All prices are starting prices. Final pricing depends on the number of
+      pages, design complexity, content needs, booking features, and extra brand
+      assets.
+    </p>
+  </div>
+</section>  
+
+
     </>
   );
 }
