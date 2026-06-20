@@ -1,15 +1,42 @@
 import { Link } from "react-router-dom";
 
 const audienceGroups = [
-  "Hair Stylists",
-  "Nail Techs",
-  "Makeup Artists",
-  "Photographers",
-  "Coaches",
-  "Tutors",
-  "Consultants",
-  "Event Planners",
-  "Small Local Businesses",
+  {
+    title: "Hair Stylists",
+    image: "/images/audience/hair-stylist.jpg",
+  },
+  {
+    title: "Nail Techs",
+    image: "/images/audience/hair-stylist.jpg",
+  },
+  {
+    title: "Makeup Artists",
+    image: "/images/audience/hair-stylist.jpg",
+  },
+  {
+    title: "Photographers",
+    image: "/images/audience/hair-stylist.jpg",
+  },
+  {
+    title: "Coaches",
+    image: "/images/audience/hair-stylist.jpg",
+  },
+  {
+    title: "Tutors",
+    image: "/images/audience/hair-stylist.jpg",
+  },
+  {
+    title: "Consultants",
+    image: "/images/audience/hair-stylist.jpg",
+  },
+  {
+    title: "Event Planners",
+    image: "/images/audience/hair-stylist.jpg",
+  },
+  {
+    title: "Small Local Businesses",
+    image: "/images/audience/hair-stylist.jpg",
+  },
 ];
 
 function Home() {
@@ -26,7 +53,7 @@ function Home() {
             </h1>
 
             <p className="hero-text">
-              Git It Bunny helps beauty professionals, creatives, consultants,
+              Get It Bunny helps beauty professionals, creatives, consultants,
               and small businesses build a clean online presence through landing
               pages, business websites, booking websites, and branded launch
               visuals.
@@ -83,7 +110,7 @@ function Home() {
             <p className="eyebrow">Who It’s For</p>
             <h2>Built for businesses that need to look official online.</h2>
             <p>
-              Git It Bunny is made for service-based businesses that need a
+              Get It Bunny is made for service-based businesses that need a
               professional online presence, clear service information, and an
               easier way for customers to inquire or book.
             </p>
@@ -91,9 +118,15 @@ function Home() {
 
           <div className="audience-grid">
             {audienceGroups.map((group) => (
-              <div className="audience-card" key={group}>
-                <span>{group}</span>
-              </div>
+              <article className="audience-card" key={group.title}>
+                <img src={group.image} alt={`${group.title} business`} />
+
+                <div className="audience-card-overlay"></div>
+
+                <div className="audience-card-content">
+                  <span>{group.title}</span>
+                </div>
+              </article>
             ))}
           </div>
         </div>
