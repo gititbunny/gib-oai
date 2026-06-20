@@ -39,6 +39,29 @@ const audienceGroups = [
   },
 ];
 
+const servicePreviews = [
+  {
+    title: "Landing Pages",
+    image: "/images/services/landing-page.jpg",
+    text: "One focused page for a service, promo, launch, event, or campaign.",
+  },
+  {
+    title: "Business Websites",
+    image: "/images/services/business-website.jpg",
+    text: "A full website with pages like Home, About, Services, Gallery, and Contact.",
+  },
+  {
+    title: "Booking Websites",
+    image: "/images/services/booking-website.jpg",
+    text: "A website with a booking request form and WhatsApp confirmation flow.",
+  },
+  {
+    title: "Social Launch Kits",
+    image: "/images/services/social-launch-kit.jpg",
+    text: "Branded graphics to announce your website, services, promos, or bookings.",
+  },
+];
+
 function Home() {
   return (
     <>
@@ -131,6 +154,42 @@ function Home() {
           </div>
         </div>
       </section>
+
+    <section className="section-block services-preview-section">
+  <div className="container">
+    <div className="section-heading section-heading-row">
+      <div>
+        <p className="eyebrow">Main Services</p>
+        <h2>Everything your business needs to look ready online.</h2>
+        <p>
+          From a single landing page to a booking-ready website, Get It Bunny
+          helps you create a professional online presence with matching launch
+          visuals.
+        </p>
+      </div>
+
+      <Link to="/services" className="btn btn-secondary">
+        View All Services
+      </Link>
+    </div>
+
+    <div className="services-preview-grid">
+      {servicePreviews.map((service) => (
+        <article className="service-preview-card" key={service.title}>
+          <div className="service-preview-image">
+            <img src={service.image} alt={`${service.title} service`} />
+          </div>
+
+          <div className="service-preview-content">
+            <h3>{service.title}</h3>
+            <p>{service.text}</p>
+          </div>
+        </article>
+      ))}
+    </div>
+  </div>
+</section>
+
     </>
   );
 }
