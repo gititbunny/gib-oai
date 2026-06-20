@@ -620,13 +620,13 @@ h1 {
   min-height: 210px;
   border-radius: 24px;
 }
-  .section-heading-row {
-    align-items: flex-start;
-    flex-direction: column;
-  }
 
   .services-preview-grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
+  }
+
+  .service-preview-content {
+    padding: 22px;
   }
 
   .footer-grid {
