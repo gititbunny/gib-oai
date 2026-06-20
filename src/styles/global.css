@@ -565,6 +565,15 @@ h1 {
   grid-template-columns: repeat(2, 1fr);
 }
 
+  .section-heading-row {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .services-preview-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
   .footer-grid {
     grid-template-columns: 1fr 1fr;
   }
@@ -611,6 +620,14 @@ h1 {
   min-height: 210px;
   border-radius: 24px;
 }
+  .section-heading-row {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .services-preview-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 
   .footer-grid {
     grid-template-columns: 1fr;
