@@ -884,6 +884,15 @@ h1 {
     margin-bottom: 18px;
   }
 
+    .why-card-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .why-card {
+    padding: 24px;
+    border-radius: 24px;
+  }
+
   .footer-grid {
     grid-template-columns: 1fr;
   }
