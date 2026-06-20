@@ -105,7 +105,32 @@ const packagePreviews = [
   },
 ];
 
-
+const whyChooseItems = [
+  {
+    title: "Custom design",
+    text: "Your website is designed around your business, services, style, and client journey.",
+  },
+  {
+    title: "Mobile-friendly websites",
+    text: "Your site is built to look clean and easy to use on phones, tablets, and desktops.",
+  },
+  {
+    title: "WhatsApp-ready flow",
+    text: "Customers can inquire or start booking through a simple WhatsApp-friendly process.",
+  },
+  {
+    title: "Launch visuals included",
+    text: "Your website does not launch alone. You also get branded graphics to promote it online.",
+  },
+  {
+    title: "Beginner-friendly process",
+    text: "Everything is explained clearly, without making you feel overwhelmed by tech language.",
+  },
+  {
+    title: "Client-owned setup",
+    text: "Where possible, your domain and important accounts stay under your own name or business.",
+  },
+];
 
 function Home() {
   return (
