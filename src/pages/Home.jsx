@@ -76,7 +76,7 @@ function Home() {
             </h1>
 
             <p className="hero-text">
-              Git It Bunny helps beauty professionals, creatives, consultants,
+              Get It Bunny helps beauty professionals, creatives, consultants,
               and small businesses build a clean online presence through landing
               pages, business websites, booking websites, and branded launch
               visuals.
@@ -133,7 +133,7 @@ function Home() {
             <p className="eyebrow">Who It’s For</p>
             <h2>Built for businesses that need to look official online.</h2>
             <p>
-              Git It Bunny is made for service-based businesses that need a
+              Get It Bunny is made for service-based businesses that need a
               professional online presence, clear service information, and an
               easier way for customers to inquire or book.
             </p>
@@ -155,41 +155,40 @@ function Home() {
         </div>
       </section>
 
-    <section className="section-block services-preview-section">
-  <div className="container">
-    <div className="section-heading section-heading-row">
-      <div>
-        <p className="eyebrow">Main Services</p>
-        <h2>Everything your business needs to look ready online.</h2>
-        <p>
-          From a single landing page to a booking-ready website, Get It Bunny
-          helps you create a professional online presence with matching launch
-          visuals.
-        </p>
-      </div>
+      <section className="section-block services-preview-section">
+        <div className="container">
+          <div className="section-heading section-heading-row">
+            <div>
+              <p className="eyebrow">Main Services</p>
+              <h2>Everything your business needs to look ready online.</h2>
+              <p>
+                From a single landing page to a booking-ready website, Get It
+                Bunny helps you create a professional online presence with
+                matching launch visuals.
+              </p>
+            </div>
 
-      <Link to="/services" className="btn btn-secondary">
-        View All Services
-      </Link>
-    </div>
-
-    <div className="services-preview-grid">
-      {servicePreviews.map((service) => (
-        <article className="service-preview-card" key={service.title}>
-          <div className="service-preview-image">
-            <img src={service.image} alt={`${service.title} service`} />
+            <Link to="/services" className="btn btn-secondary">
+              View All Services
+            </Link>
           </div>
 
-          <div className="service-preview-content">
-            <h3>{service.title}</h3>
-            <p>{service.text}</p>
-          </div>
-        </article>
-      ))}
-    </div>
-  </div>
-</section>
+          <div className="services-preview-grid">
+            {servicePreviews.map((service) => (
+              <article className="service-preview-card" key={service.title}>
+                <div className="service-preview-image">
+                  <img src={service.image} alt={`${service.title} service`} />
+                </div>
 
+                <div className="service-preview-content">
+                  <h3>{service.title}</h3>
+                  <p>{service.text}</p>
+                </div>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
     </>
   );
 }
