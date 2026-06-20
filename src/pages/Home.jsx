@@ -62,6 +62,51 @@ const servicePreviews = [
   },
 ];
 
+const packagePreviews = [
+  {
+    name: "Landing Page",
+    price: "From R3,500",
+    bestFor: "Best for one service, promo, campaign, event, or launch.",
+    features: [
+      "One-page website",
+      "Mobile responsive design",
+      "Contact or booking button",
+      "WhatsApp button",
+      "Basic SEO",
+      "2 launch graphics",
+    ],
+  },
+  {
+    name: "Business Website",
+    price: "From R8,500",
+    bestFor: "Best for a full professional business website.",
+    features: [
+      "3–5 website pages",
+      "Mobile responsive design",
+      "Contact form",
+      "WhatsApp button",
+      "Google Maps embed",
+      "4 launch graphics",
+    ],
+    featured: true,
+  },
+  {
+    name: "Booking Website",
+    price: "From R12,500",
+    bestFor: "Best for service businesses that need booking requests.",
+    features: [
+      "5-page website",
+      "Services/pricing page",
+      "Booking request form",
+      "WhatsApp confirmation flow",
+      "Basic SEO",
+      "6 launch graphics",
+    ],
+  },
+];
+
+
+
 function Home() {
   return (
     <>
