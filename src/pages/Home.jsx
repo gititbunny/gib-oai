@@ -307,6 +307,32 @@ function Home() {
   </div>
 </section>  
 
+<section className="section-block why-section">
+  <div className="container why-grid">
+    <div className="why-content">
+      <p className="eyebrow">Why Choose Get It Bunny</p>
+      <h2>Not just a website. A cleaner way to launch your business online.</h2>
+      <p>
+        Get It Bunny helps you create a professional online presence that feels
+        clear, trustworthy, and easy for customers to act on.
+      </p>
+
+      <Link to="/process" className="btn btn-primary">
+        See The Process
+      </Link>
+    </div>
+
+    <div className="why-card-grid">
+      {whyChooseItems.map((item) => (
+        <article className="why-card" key={item.title}>
+          <div className="why-icon">✦</div>
+          <h3>{item.title}</h3>
+          <p>{item.text}</p>
+        </article>
+      ))}
+    </div>
+  </div>
+</section>
 
     </>
   );
