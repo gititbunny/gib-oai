@@ -784,6 +784,17 @@ h1 {
     padding: 22px;
   }
 
+    .package-card {
+    padding: 24px;
+    border-radius: 24px;
+  }
+
+  .package-badge {
+    position: static;
+    width: fit-content;
+    margin-bottom: 18px;
+  }
+
   .footer-grid {
     grid-template-columns: 1fr;
   }
