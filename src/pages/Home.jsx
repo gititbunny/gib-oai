@@ -230,10 +230,10 @@ function Home() {
             </div>
 
            <div className="hero-trust-row">
-  <span>Mobile-friendly</span>
-  <span>Email & form-ready</span>
-  <span>Launch graphics included</span>
-</div>
+              <span>Mobile-friendly</span>
+              <span>Email & form-ready</span>
+              <span>Launch graphics included</span>
+            </div>
           </div>
 
           <div className="hero-media-wrap">
