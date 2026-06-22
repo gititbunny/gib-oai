@@ -53,7 +53,7 @@ const servicePreviews = [
   {
     title: "Booking Websites",
     image: "/images/services/landing-page.jpg",
-    text: "A website with a booking request form and WhatsApp confirmation flow.",
+    text: "A website with a booking request form and email or WhatsApp follow-up options.",
   },
   {
     title: "Social Launch Kits",
@@ -98,7 +98,7 @@ const packagePreviews = [
       "5-page website",
       "Services/pricing page",
       "Booking request form",
-      "WhatsApp confirmation flow",
+      "Email or WhatsApp follow-up flow",
       "Basic SEO",
       "6 launch graphics",
     ],
