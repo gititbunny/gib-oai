@@ -29,18 +29,24 @@ function Footer() {
           <Link to="/privacy-policy">Privacy Policy</Link>
         </div>
 
-        <div>
-          <h3>Contact</h3>
-          <a href="mailto:gititbunny@gmail.com">gititbunny@gmail.com</a>
-          <a
-            href="https://wa.me/27000000000?text=Hi%20Get%20It%20Bunny%2C%20I%E2%80%99m%20interested%20in%20starting%20a%20website%20project."
-            target="_blank"
-            rel="noreferrer"
-          >
-            WhatsApp
-          </a>
-        </div>
+      <div>
+        <h3>Contact</h3>
+
+        <a href="mailto:hello@getitbunny.co.za?subject=Website%20Project%20Inquiry">
+          hello@getitbunny.co.za
+        </a>
+
+        <Link to="/contact">Project Request Form</Link>
+
+        <a
+          href="https://wa.me/27000000000?text=Hi%20Get%20It%20Bunny%2C%20I%20have%20a%20quick%20question%20about%20a%20website%20project."
+          target="_blank"
+          rel="noreferrer"
+        >
+          Quick WhatsApp Question
+        </a>
       </div>
+    </div>
 
       <div className="footer-bottom">
         <p>© {currentYear} Git It Bunny. All rights reserved.</p>
