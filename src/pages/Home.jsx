@@ -519,10 +519,10 @@ function Home() {
       </div>
 
       <div className="final-cta-note">
-        <span>Website</span>
-        <span>Booking Flow</span>
-        <span>Launch Graphics</span>
-      </div>
+  <span>Project Form</span>
+  <span>Email First</span>
+  <span>Quick Follow-up</span>
+</div>
     </div>
   </div>
 </section>
