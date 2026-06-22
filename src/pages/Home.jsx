@@ -357,6 +357,36 @@ function Home() {
   </div>
 </section>
 
+
+<section className="section-block process-preview-section">
+  <div className="container">
+    <div className="section-heading section-heading-center">
+      <p className="eyebrow">How It Works</p>
+      <h2>A simple process from first message to website launch.</h2>
+      <p>
+        You do not need to understand complicated tech. Get It Bunny guides you
+        through each stage clearly, from your first request to going live.
+      </p>
+    </div>
+
+    <div className="process-preview-grid">
+      {processSteps.map((step) => (
+        <article className="process-step-card" key={step.number}>
+          <span className="process-number">{step.number}</span>
+          <h3>{step.title}</h3>
+          <p>{step.text}</p>
+        </article>
+      ))}
+    </div>
+
+    <div className="process-preview-cta">
+      <Link to="/process" className="btn btn-primary">
+        View Full Process
+      </Link>
+    </div>
+  </div>
+</section>
+
     </>
   );
 }
