@@ -892,6 +892,10 @@ h1 {
     position: static;
   }
 
+    .process-preview-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
   .footer-grid {
     grid-template-columns: 1fr 1fr;
   }
@@ -931,13 +935,13 @@ h1 {
   }
 
   .audience-grid {
-  grid-template-columns: 1fr;
-}
+    grid-template-columns: 1fr;
+  }
 
-.audience-card {
-  min-height: 210px;
-  border-radius: 24px;
-}
+  .audience-card {
+    min-height: 210px;
+    border-radius: 24px;
+  }
 
   .services-preview-grid {
     grid-template-columns: 1fr;
