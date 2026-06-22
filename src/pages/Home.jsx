@@ -504,20 +504,18 @@ function Home() {
           presence that feels clear and professional.
         </p>
 
-        <div className="final-cta-actions">
-          <a
-            href="https://wa.me/27000000000?text=Hi%20Get%20It%20Bunny%2C%20I%E2%80%99m%20interested%20in%20starting%20a%20website%20project.%20My%20business%20name%20is%20%5Bbusiness%20name%5D%2C%20and%20I%20need%20help%20with%20%5Blanding%20page%2Fbusiness%20website%2Fbooking%20website%5D."
-            target="_blank"
-            rel="noreferrer"
-            className="btn btn-primary"
-          >
-            Start Your Project on WhatsApp
-          </a>
+       <div className="final-cta-actions">
+  <Link to="/contact" className="btn btn-primary">
+    Start Your Project
+  </Link>
 
-          <Link to="/contact" className="btn btn-secondary">
-            Fill in Project Form
-          </Link>
-        </div>
+  <a
+    href="mailto:hello@getitbunny.co.za?subject=Website%20Project%20Inquiry&body=Hi%20Get%20It%20Bunny%2C%0D%0A%0D%0AI%E2%80%99m%20interested%20in%20starting%20a%20website%20project.%0D%0A%0D%0AMy%20business%20name%20is%3A%0D%0AI%20need%20help%20with%3A%0D%0AMy%20ideal%20deadline%20is%3A%0D%0A%0D%0AThank%20you."
+    className="btn btn-secondary"
+  >
+    Email Get It Bunny
+  </a>
+</div>
       </div>
 
       <div className="final-cta-note">
