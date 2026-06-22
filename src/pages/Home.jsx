@@ -229,11 +229,11 @@ function Home() {
               </Link>
             </div>
 
-            <div className="hero-trust-row">
-              <span>Mobile-friendly</span>
-              <span>WhatsApp-ready</span>
-              <span>Launch graphics included</span>
-            </div>
+           <div className="hero-trust-row">
+  <span>Mobile-friendly</span>
+  <span>Email & form-ready</span>
+  <span>Launch graphics included</span>
+</div>
           </div>
 
           <div className="hero-media-wrap">
