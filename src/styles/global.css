@@ -805,7 +805,7 @@ h1 {
 
 .portfolio-preview-grid {
   display: grid;
-  grid-template-columns: 1.2fr 0.9fr 0.9fr;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 18px;
 }
 
@@ -829,9 +829,7 @@ h1 {
   background: var(--color-secondary);
 }
 
-.portfolio-preview-card:first-child .portfolio-preview-image {
-  aspect-ratio: 16 / 10;
-}
+
 
 .portfolio-preview-image img {
   width: 100%;
