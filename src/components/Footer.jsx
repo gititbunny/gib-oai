@@ -9,8 +9,8 @@ function Footer() {
         <div>
           <h2>Get It Bunny</h2>
           <p>
-            Websites, booking pages, and launch graphics for service-based
-            businesses.
+            Professional websites, booking pages, and launch graphics for
+            service-based businesses.
           </p>
         </div>
 
