@@ -939,6 +939,116 @@ h1 {
   font-size: 0.96rem;
 }
 
+/* Final CTA Section */
+
+.final-cta-section {
+  padding: 96px 0;
+  background: #ffffff;
+}
+
+.final-cta-card {
+  position: relative;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 32px;
+  align-items: end;
+  padding: clamp(32px, 6vw, 64px);
+  border-radius: 38px;
+  background:
+    radial-gradient(circle at top left, rgba(244, 215, 207, 0.72), transparent 32%),
+    radial-gradient(circle at bottom right, rgba(201, 151, 93, 0.28), transparent 34%),
+    var(--color-primary);
+  color: white;
+  box-shadow: 0 24px 64px rgba(58, 36, 28, 0.18);
+}
+
+.final-cta-card::before {
+  content: "";
+  position: absolute;
+  width: 240px;
+  height: 240px;
+  right: -90px;
+  top: -90px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.final-cta-card::after {
+  content: "";
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  right: 70px;
+  bottom: -80px;
+  border-radius: 999px;
+  background: rgba(244, 215, 207, 0.16);
+}
+
+.final-cta-content {
+  position: relative;
+  z-index: 2;
+  max-width: 780px;
+}
+
+.final-cta-content .eyebrow {
+  color: var(--color-secondary);
+}
+
+.final-cta-content h2 {
+  max-width: 760px;
+  font-size: clamp(2.2rem, 5vw, 4.8rem);
+  line-height: 0.98;
+  letter-spacing: -0.06em;
+  margin-bottom: 22px;
+}
+
+.final-cta-content p {
+  max-width: 680px;
+  color: rgba(255, 255, 255, 0.76);
+  font-size: 1.08rem;
+  line-height: 1.8;
+  margin-bottom: 32px;
+}
+
+.final-cta-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+.final-cta-card .btn-primary {
+  background: white;
+  color: var(--color-primary);
+  box-shadow: none;
+}
+
+.final-cta-card .btn-secondary {
+  background: rgba(255, 255, 255, 0.14);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.24);
+}
+
+.final-cta-note {
+  position: relative;
+  z-index: 2;
+  display: grid;
+  gap: 12px;
+  min-width: 190px;
+}
+
+.final-cta-note span {
+  display: inline-flex;
+  justify-content: center;
+  padding: 11px 14px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.12);
+  color: rgba(255, 255, 255, 0.84);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  font-size: 0.86rem;
+  font-weight: 800;
+}
+
 /* Footer */
 
 .site-footer {
@@ -1050,6 +1160,15 @@ h1 {
     position: static;
   }
 
+  .final-cta-card {
+    grid-template-columns: 1fr;
+  }
+
+  .final-cta-note {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
   .footer-grid {
     grid-template-columns: 1fr 1fr;
   }
