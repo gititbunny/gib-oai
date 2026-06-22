@@ -1147,6 +1147,11 @@ h1 {
     padding: 22px;
   }
 
+    .faq-preview-item {
+    padding: 24px;
+    border-radius: 24px;
+  }
+
   .footer-grid {
     grid-template-columns: 1fr;
   }
