@@ -1042,6 +1042,14 @@ h1 {
     grid-template-columns: 1fr;
   }
 
+    .faq-preview-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .faq-preview-content {
+    position: static;
+  }
+
   .footer-grid {
     grid-template-columns: 1fr 1fr;
   }
