@@ -492,6 +492,43 @@ function Home() {
   </div>
 </section>
 
+<section className="final-cta-section">
+  <div className="container">
+    <div className="final-cta-card">
+      <div className="final-cta-content">
+        <p className="eyebrow">Start Your Project</p>
+        <h2>Ready to make your business look official online?</h2>
+        <p>
+          Whether you need a landing page, business website, booking website, or
+          launch graphics, Get It Bunny can help you create a polished online
+          presence that feels clear and professional.
+        </p>
+
+        <div className="final-cta-actions">
+          <a
+            href="https://wa.me/27000000000?text=Hi%20Get%20It%20Bunny%2C%20I%E2%80%99m%20interested%20in%20starting%20a%20website%20project.%20My%20business%20name%20is%20%5Bbusiness%20name%5D%2C%20and%20I%20need%20help%20with%20%5Blanding%20page%2Fbusiness%20website%2Fbooking%20website%5D."
+            target="_blank"
+            rel="noreferrer"
+            className="btn btn-primary"
+          >
+            Start Your Project on WhatsApp
+          </a>
+
+          <Link to="/contact" className="btn btn-secondary">
+            Fill in Project Form
+          </Link>
+        </div>
+      </div>
+
+      <div className="final-cta-note">
+        <span>Website</span>
+        <span>Booking Flow</span>
+        <span>Launch Graphics</span>
+      </div>
+    </div>
+  </div>
+</section>
+
     </>
   );
 }
