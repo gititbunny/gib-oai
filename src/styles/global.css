@@ -1271,6 +1271,18 @@ h1 {
     border-radius: 24px;
   }
 
+    .final-cta-section {
+    padding: 70px 0;
+  }
+
+  .final-cta-card {
+    border-radius: 26px;
+  }
+
+  .final-cta-actions .btn {
+    width: 100%;
+  }
+
   .footer-grid {
     grid-template-columns: 1fr;
   }
