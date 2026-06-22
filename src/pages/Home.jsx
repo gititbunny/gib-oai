@@ -466,6 +466,32 @@ function Home() {
   </div>
 </section>
 
+<section className="section-block faq-preview-section">
+  <div className="container faq-preview-grid">
+    <div className="faq-preview-content">
+      <p className="eyebrow">FAQs</p>
+      <h2>Questions clients usually ask before starting.</h2>
+      <p>
+        Here are a few quick answers about domains, booking flows, refunds, and
+        revisions before you start a project.
+      </p>
+
+      <Link to="/contact" className="btn btn-primary">
+        Ask a Question
+      </Link>
+    </div>
+
+    <div className="faq-preview-list">
+      {faqPreviews.map((item) => (
+        <article className="faq-preview-item" key={item.question}>
+          <h3>{item.question}</h3>
+          <p>{item.answer}</p>
+        </article>
+      ))}
+    </div>
+  </div>
+</section>
+
     </>
   );
 }
