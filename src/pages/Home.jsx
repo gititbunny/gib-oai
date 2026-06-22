@@ -498,11 +498,11 @@ function Home() {
       <div className="final-cta-content">
         <p className="eyebrow">Start Your Project</p>
         <h2>Ready to make your business look official online?</h2>
-        <p>
-          Whether you need a landing page, business website, booking website, or
-          launch graphics, Get It Bunny can help you create a polished online
-          presence that feels clear and professional.
-        </p>
+       <p>
+  Whether you need a landing page, business website, booking website, or
+  launch graphics, start with the project form or send an email so your
+  inquiry is clear, professional, and easy to follow up on.
+</p>
 
        <div className="final-cta-actions">
   <Link to="/contact" className="btn btn-primary">
