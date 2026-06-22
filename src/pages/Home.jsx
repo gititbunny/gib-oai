@@ -155,6 +155,27 @@ const processSteps = [
   },
 ];
 
+const portfolioPreviews = [
+  {
+    title: "Glow Studio Landing Page",
+    type: "Beauty Service Landing Page",
+    image: "/images/portfolio/landing-preview.jpg",
+    text: "A focused landing page concept for a beauty studio promoting services, offers, and WhatsApp inquiries.",
+  },
+  {
+    title: "Luxe Bookings Website",
+    type: "Booking Website Concept",
+    image: "/images/portfolio/booking-preview.jpg",
+    text: "A booking-ready website concept with service details, request form direction, and WhatsApp confirmation flow.",
+  },
+  {
+    title: "Soft Launch Graphics Kit",
+    type: "Social Launch Kit",
+    image: "/images/portfolio/social-preview.jpg",
+    text: "A branded launch visuals concept for announcing services, bookings, and website launch updates.",
+  },
+];
+
 function Home() {
   return (
     <>
