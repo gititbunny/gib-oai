@@ -132,6 +132,29 @@ const whyChooseItems = [
   },
 ];
 
+const processSteps = [
+  {
+    number: "01",
+    title: "Send your project request",
+    text: "Start by sending a WhatsApp message or filling in the project request form.",
+  },
+  {
+    number: "02",
+    title: "We discuss your business and needs",
+    text: "We go through your services, goals, pages, style direction, booking needs, and content.",
+  },
+  {
+    number: "03",
+    title: "Design and build begins after deposit",
+    text: "Once the quote is approved and the deposit is paid, the design and website build begins.",
+  },
+  {
+    number: "04",
+    title: "Website goes live after final approval",
+    text: "You review the final website, request allowed revisions, make final payment, and then launch.",
+  },
+];
+
 function Home() {
   return (
     <>
