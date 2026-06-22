@@ -183,9 +183,9 @@ const faqPreviews = [
       "No. Get It Bunny can help you choose and set up a domain, but the domain should be bought under your own name or business account.",
   },
   {
-    question: "Do booking websites confirm appointments automatically?",
-    answer:
-      "No. The booking form sends a request, and the customer is redirected to WhatsApp with a pre-filled message. The business confirms the appointment directly.",
+  question: "Do booking websites confirm appointments automatically?",
+  answer:
+    "No. The booking form sends a request first. The business can then confirm the appointment directly through email, WhatsApp, or their preferred contact method.",
   },
   {
     question: "Do you offer refunds?",
