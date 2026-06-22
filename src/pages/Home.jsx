@@ -176,6 +176,29 @@ const portfolioPreviews = [
   },
 ];
 
+const faqPreviews = [
+  {
+    question: "Do I need to have a domain before contacting you?",
+    answer:
+      "No. Get It Bunny can help you choose and set up a domain, but the domain should be bought under your own name or business account.",
+  },
+  {
+    question: "Do booking websites confirm appointments automatically?",
+    answer:
+      "No. The booking form sends a request, and the customer is redirected to WhatsApp with a pre-filled message. The business confirms the appointment directly.",
+  },
+  {
+    question: "Do you offer refunds?",
+    answer:
+      "Refunds depend on the project stage. Once design or development work has started, deposits are generally non-refundable.",
+  },
+  {
+    question: "Do you offer revisions?",
+    answer:
+      "Yes. Each package includes a set number of revisions. Extra revisions are charged separately.",
+  },
+];
+
 function Home() {
   return (
     <>
