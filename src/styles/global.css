@@ -892,7 +892,7 @@ h1 {
     position: static;
   }
 
-    .process-preview-grid {
+  .process-preview-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 
@@ -969,6 +969,20 @@ h1 {
   .why-card {
     padding: 24px;
     border-radius: 24px;
+  }
+
+    .process-preview-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .process-step-card {
+    min-height: auto;
+    padding: 24px;
+    border-radius: 24px;
+  }
+
+  .process-number {
+    margin-bottom: 28px;
   }
 
   .footer-grid {
