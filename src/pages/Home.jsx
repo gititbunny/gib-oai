@@ -408,6 +408,41 @@ function Home() {
   </div>
 </section>
 
+<section className="section-block portfolio-preview-section">
+  <div className="container">
+    <div className="section-heading section-heading-row">
+      <div>
+        <p className="eyebrow">Portfolio Preview</p>
+        <h2>Preview the kind of online presence Get It Bunny creates.</h2>
+        <p>
+          Explore website and launch visual concepts made for service-based
+          businesses that want to look professional, clear, and ready to book.
+        </p>
+      </div>
+
+      <Link to="/portfolio" className="btn btn-secondary">
+        View Portfolio
+      </Link>
+    </div>
+
+    <div className="portfolio-preview-grid">
+      {portfolioPreviews.map((project) => (
+        <article className="portfolio-preview-card" key={project.title}>
+          <div className="portfolio-preview-image">
+            <img src={project.image} alt={`${project.title} preview`} />
+          </div>
+
+          <div className="portfolio-preview-content">
+            <span>{project.type}</span>
+            <h3>{project.title}</h3>
+            <p>{project.text}</p>
+          </div>
+        </article>
+      ))}
+    </div>
+  </div>
+</section>
+
     </>
   );
 }
