@@ -331,23 +331,7 @@ h1 {
 
   .form-side-content {
     position: static;
-  }
-
-    .services-hero-grid,
-  .service-detail-card,
-  .service-detail-card:nth-child(even),
-  .add-ons-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .service-detail-card:nth-child(even) .service-detail-image {
-    order: 0;
-  }
-
-  .service-detail-image {
-    min-height: 300px;
-  }
-  
+  }  
 }
 
 @media (max-width: 620px) {
@@ -374,18 +358,5 @@ h1 {
   .form-grid {
     grid-template-columns: 1fr;
   }
-
-    .services-hero-card,
-  .service-detail-card {
-    border-radius: 24px;
-  }
-
-  .service-detail-image {
-    min-height: 240px;
-  }
-
-  .add-on-pill {
-    width: 100%;
-    text-align: center;
-  }
+  
 }
