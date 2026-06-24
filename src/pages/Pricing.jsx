@@ -149,6 +149,8 @@ function Pricing() {
 
                 <div className="pricing-package-price">{item.price}</div>
 
+                <div className="pricing-package-timeline">{item.timeline}</div>
+
                 <ul className="pricing-package-features">
                   {item.features.map((feature) => (
                     <li key={feature}>{feature}</li>
