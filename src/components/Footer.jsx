@@ -7,7 +7,7 @@ function Footer() {
     <footer className="site-footer">
       <div className="container footer-grid">
         <div>
-          <h2>Get It Bunny</h2>
+          <h2>Git It Bunny</h2>
           <p>
             Professional websites, booking pages, and launch graphics for
             service-based businesses.
@@ -32,14 +32,14 @@ function Footer() {
       <div>
         <h3>Contact</h3>
 
-        <a href="mailto:hello@getitbunny.co.za?subject=Website%20Project%20Inquiry">
-          hello@getitbunny.co.za
+        <a href="mailto:gitbunny@gmail.com?subject=Website%20Project%20Inquiry">
+          gitbunny@gmail.com
         </a>
 
         <Link to="/contact">Project Request Form</Link>
 
         <a
-          href="https://wa.me/27000000000?text=Hi%20Get%20It%20Bunny%2C%20I%20have%20a%20quick%20question%20about%20a%20website%20project."
+          href="https://wa.me/27000000000?text=Hi%20Git%20It%20Bunny%2C%20I%20have%20a%20quick%20question%20about%20a%20website%20project."
           target="_blank"
           rel="noreferrer"
         >

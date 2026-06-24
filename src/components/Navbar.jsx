@@ -4,13 +4,13 @@ function Navbar() {
   return (
     <header className="site-header">
       <nav className="navbar container">
-        <Link to="/" className="logo" aria-label="Get It Bunny home">
+        <Link to="/" className="logo" aria-label="Git It Bunny home">
           <img
             src="logo.svg"
-            alt="Get It Bunny logo"
+            alt="Git It Bunny logo"
             className="logo-image"
           />
-          <span className="logo-text">Get It Bunny</span>
+          <span className="logo-text">Git It Bunny</span>
         </Link>
 
         <div className="nav-links">
