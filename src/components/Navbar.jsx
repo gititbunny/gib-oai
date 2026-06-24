@@ -6,7 +6,7 @@ function Navbar() {
       <nav className="navbar container">
         <Link to="/" className="logo" aria-label="Get It Bunny home">
           <img
-            src="public/images/logo.svg"
+            src="logo.svg"
             alt="Get It Bunny logo"
             className="logo-image"
           />
