@@ -114,11 +114,27 @@
 }
 
 .pricing-package-price {
-  margin-bottom: 26px;
+  margin-bottom: 14px;
   font-size: clamp(2rem, 4vw, 3rem);
   line-height: 1;
   letter-spacing: -0.06em;
   font-weight: 900;
+}
+
+.pricing-package-timeline {
+  margin-bottom: 26px;
+  padding: 10px 12px;
+  border-radius: 999px;
+  background: rgba(244, 215, 207, 0.45);
+  color: var(--color-primary);
+  font-size: 0.86rem;
+  font-weight: 850;
+  line-height: 1.4;
+}
+
+.featured-pricing-package .pricing-package-timeline {
+  background: rgba(255, 255, 255, 0.12);
+  color: rgba(255, 255, 255, 0.84);
 }
 
 .pricing-package-features {
