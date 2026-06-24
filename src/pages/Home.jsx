@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import "../styles/home.css";
 
 const audienceGroups = [
   {
@@ -213,7 +214,7 @@ function Home() {
             </h1>
 
             <p className="hero-text">
-              Get It Bunny helps beauty professionals, creatives, consultants,
+              Git It Bunny helps beauty professionals, creatives, consultants,
               and small businesses build a clean online presence through landing
               pages, business websites, booking websites, and branded launch
               visuals.
@@ -270,7 +271,7 @@ function Home() {
             <p className="eyebrow">Who It’s For</p>
             <h2>Built for businesses that need to look official online.</h2>
             <p>
-              Get It Bunny is made for service-based businesses that need a
+              Git It Bunny is made for service-based businesses that need a
               professional online presence, clear service information, and an
               easier way for customers to inquire or book.
             </p>
