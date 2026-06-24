@@ -1566,6 +1566,21 @@ h1 {
   .form-side-content {
     position: static;
   }
+
+    .services-hero-grid,
+  .service-detail-card,
+  .service-detail-card:nth-child(even),
+  .add-ons-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .service-detail-card:nth-child(even) .service-detail-image {
+    order: 0;
+  }
+
+  .service-detail-image {
+    min-height: 300px;
+  }
   
   .footer-grid {
     grid-template-columns: 1fr 1fr;
