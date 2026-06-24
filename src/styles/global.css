@@ -1501,6 +1501,21 @@ h1 {
     width: 100%;
   }
 
+    .contact-intro-card,
+  .contact-option-card,
+  .project-form,
+  .form-note-card {
+    border-radius: 24px;
+  }
+
+  .project-form {
+    padding: 22px;
+  }
+
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+
   .footer-grid {
     grid-template-columns: 1fr;
   }
