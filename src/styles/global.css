@@ -71,16 +71,18 @@ main {
   font-weight: 800;
 }
 
-.logo-mark {
-  display: grid;
-  place-items: center;
-  width: 44px;
-  height: 44px;
-  border-radius: 16px;
-  background: var(--color-primary);
-  color: white;
-  font-size: 0.85rem;
-  letter-spacing: 0.08em;
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-weight: 800;
+}
+
+.logo-image {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  display: block;
 }
 
 .logo-text {
