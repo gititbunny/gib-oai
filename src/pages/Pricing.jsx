@@ -5,6 +5,7 @@ const pricingPackages = [
   {
     name: "Landing Page Package",
     price: "From R3,500",
+    timeline: "Estimated timeline: 5–7 business days",
     bestFor: "Best for one service, promo, campaign, event, or launch.",
     features: [
       "One-page landing page",
@@ -18,6 +19,7 @@ const pricingPackages = [
   {
     name: "Business Website Package",
     price: "From R8,500",
+    timeline: "Estimated timeline: 10–14 business days",
     bestFor: "Best for a full professional business website.",
     features: [
       "3–5 website pages",
@@ -33,6 +35,7 @@ const pricingPackages = [
   {
     name: "Booking Website Package",
     price: "From R12,500",
+    timeline: "Estimated timeline: 2–3 weeks",
     bestFor: "Best for service businesses that need booking requests.",
     features: [
       "5-page website",
