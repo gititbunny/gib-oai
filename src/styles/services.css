@@ -177,3 +177,38 @@
   box-shadow: 0 12px 26px rgba(58, 36, 28, 0.06);
   font-weight: 800;
 }
+
+/* Services Responsive */
+
+@media (max-width: 900px) {
+  .services-hero-grid,
+  .service-detail-card,
+  .service-detail-card:nth-child(even),
+  .add-ons-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .service-detail-card:nth-child(even) .service-detail-image {
+    order: 0;
+  }
+
+  .service-detail-image {
+    min-height: 300px;
+  }
+}
+
+@media (max-width: 620px) {
+  .services-hero-card,
+  .service-detail-card {
+    border-radius: 24px;
+  }
+
+  .service-detail-image {
+    min-height: 240px;
+  }
+
+  .add-on-pill {
+    width: 100%;
+    text-align: center;
+  }
+}
