@@ -1,0 +1,319 @@
+/* Portfolio Page */
+
+.portfolio-hero-section {
+  background:
+    radial-gradient(circle at top right, rgba(244, 215, 207, 0.72), transparent 32%),
+    var(--color-bg);
+}
+
+.portfolio-hero-grid {
+  display: grid;
+  grid-template-columns: 1fr 0.48fr;
+  gap: 42px;
+  align-items: end;
+}
+
+.portfolio-hero-video-card {
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 4 / 5;
+  border-radius: 34px;
+  background: var(--color-primary);
+  border: 1px solid var(--color-border);
+  box-shadow: 0 18px 45px rgba(58, 36, 28, 0.16);
+}
+
+.portfolio-hero-video-card video,
+.portfolio-showcase-video video {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.portfolio-video-overlay {
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(180deg, rgba(33, 26, 23, 0.04), rgba(33, 26, 23, 0.68)),
+    linear-gradient(135deg, rgba(244, 215, 207, 0.12), rgba(201, 151, 93, 0.12));
+}
+
+.portfolio-video-label {
+  position: absolute;
+  left: 22px;
+  right: 22px;
+  bottom: 22px;
+  z-index: 2;
+  padding: 20px;
+  border-radius: 22px;
+  background: rgba(255, 250, 243, 0.88);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.56);
+}
+
+.portfolio-video-label span {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--color-accent);
+  font-size: 0.78rem;
+  font-weight: 850;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.portfolio-video-label strong {
+  display: block;
+  color: var(--color-primary);
+  line-height: 1.35;
+  font-size: 1.05rem;
+}
+
+.portfolio-categories-section {
+  padding: 34px 0;
+  background: #ffffff;
+}
+
+.portfolio-category-pills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+}
+
+.portfolio-category-pills span {
+  padding: 12px 16px;
+  border-radius: 999px;
+  background: rgba(255, 250, 243, 0.9);
+  color: var(--color-primary);
+  border: 1px solid var(--color-border);
+  font-size: 0.9rem;
+  font-weight: 800;
+}
+
+.featured-work-section {
+  background: #ffffff;
+}
+
+.featured-work-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+}
+
+.featured-work-card {
+  overflow: hidden;
+  border-radius: 30px;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  box-shadow: 0 16px 38px rgba(58, 36, 28, 0.08);
+  transition: transform 0.24s ease, box-shadow 0.24s ease;
+}
+
+.featured-work-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 24px 54px rgba(58, 36, 28, 0.13);
+}
+
+.featured-work-image {
+  aspect-ratio: 16 / 10;
+  overflow: hidden;
+  background: var(--color-secondary);
+}
+
+.featured-work-image img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  transition: transform 0.35s ease;
+}
+
+.featured-work-card:hover .featured-work-image img {
+  transform: scale(1.07);
+}
+
+.featured-work-content {
+  padding: 26px;
+}
+
+.featured-work-content span {
+  display: inline-flex;
+  margin-bottom: 14px;
+  color: var(--color-accent);
+  font-size: 0.78rem;
+  font-weight: 850;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.featured-work-content h2 {
+  margin-bottom: 8px;
+  color: var(--color-primary);
+  font-size: 1.5rem;
+  letter-spacing: -0.04em;
+}
+
+.featured-work-content .project-type {
+  margin-bottom: 14px;
+  color: var(--color-primary);
+  font-weight: 850;
+}
+
+.featured-work-content p {
+  color: var(--color-muted);
+  line-height: 1.75;
+  font-size: 0.96rem;
+}
+
+.portfolio-showcase-section {
+  background:
+    radial-gradient(circle at top left, rgba(244, 215, 207, 0.55), transparent 34%),
+    var(--color-bg);
+}
+
+.portfolio-showcase-grid {
+  display: grid;
+  grid-template-columns: 1.05fr 0.95fr;
+  gap: 52px;
+  align-items: center;
+}
+
+.portfolio-showcase-video {
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 16 / 10;
+  border-radius: 34px;
+  background: var(--color-primary);
+  border: 1px solid var(--color-border);
+  box-shadow: 0 18px 45px rgba(58, 36, 28, 0.16);
+}
+
+.portfolio-showcase-content h2 {
+  max-width: 620px;
+  font-size: clamp(2rem, 4vw, 3.7rem);
+  line-height: 1;
+  letter-spacing: -0.055em;
+  margin-bottom: 20px;
+}
+
+.portfolio-showcase-content p {
+  color: var(--color-muted);
+  font-size: 1.08rem;
+  line-height: 1.8;
+}
+
+.portfolio-focus-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 28px;
+}
+
+.portfolio-focus-list span {
+  padding: 12px 16px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.86);
+  color: var(--color-primary);
+  border: 1px solid var(--color-border);
+  box-shadow: 0 12px 26px rgba(58, 36, 28, 0.06);
+  font-size: 0.9rem;
+  font-weight: 800;
+}
+
+.case-study-preview-section {
+  background: #ffffff;
+}
+
+.case-study-preview-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+
+.case-study-preview-card {
+  padding: 28px;
+  border-radius: 30px;
+  background:
+    linear-gradient(135deg, rgba(255, 250, 243, 0.94), rgba(244, 215, 207, 0.28)),
+    var(--color-surface);
+  border: 1px solid var(--color-border);
+  box-shadow: 0 16px 38px rgba(58, 36, 28, 0.07);
+}
+
+.case-study-preview-card h3 {
+  margin-bottom: 24px;
+  color: var(--color-primary);
+  font-size: 1.35rem;
+  letter-spacing: -0.035em;
+}
+
+.case-study-preview-card div {
+  padding-top: 16px;
+  border-top: 1px solid var(--color-border);
+}
+
+.case-study-preview-card div + div {
+  margin-top: 16px;
+}
+
+.case-study-preview-card strong {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--color-accent);
+  font-size: 0.78rem;
+  font-weight: 850;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.case-study-preview-card p {
+  color: var(--color-muted);
+  line-height: 1.7;
+  font-size: 0.95rem;
+}
+
+/* Portfolio Responsive */
+
+@media (max-width: 900px) {
+  .portfolio-hero-grid,
+  .portfolio-showcase-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .portfolio-hero-video-card {
+    aspect-ratio: 16 / 9;
+  }
+
+  .case-study-preview-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 720px) {
+  .featured-work-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 620px) {
+  .portfolio-hero-video-card,
+  .portfolio-showcase-video,
+  .featured-work-card,
+  .case-study-preview-card {
+    border-radius: 24px;
+  }
+
+  .featured-work-content,
+  .case-study-preview-card {
+    padding: 24px;
+  }
+
+  .portfolio-video-label {
+    left: 16px;
+    right: 16px;
+    bottom: 16px;
+    padding: 16px;
+    border-radius: 18px;
+  }
+}
