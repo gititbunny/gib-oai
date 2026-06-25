@@ -177,6 +177,14 @@ function Portfolio() {
                   <h2>{project.title}</h2>
                   <p className="project-type">{project.type}</p>
                   <p>{project.text}</p>
+                  <a
+                    href={project.link}
+                    className="portfolio-project-link"
+                    target={project.link === "#" ? "_self" : "_blank"}
+                    rel={project.link === "#" ? undefined : "noreferrer"}
+                  >
+                    {project.linkLabel}
+                  </a>
                 </div>
               </article>
             ))}
