@@ -407,4 +407,13 @@
     align-items: flex-start;
     flex-direction: column;
   }
+
+  .custom-pricing-card,
+.custom-pricing-price {
+  border-radius: 24px;
+}
+
+.custom-pricing-price {
+  padding: 24px;
+}
 }
