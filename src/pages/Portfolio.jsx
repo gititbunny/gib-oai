@@ -17,6 +17,8 @@ const projects = [
     service: "Landing Page",
     image: "/images/portfolio/landing-preview.jpg",
     text: "A focused landing page concept for a beauty studio promoting services, offers, and clear inquiries.",
+    linkLabel: "View Website Preview",
+    link: "https://techhubsolutions.netlify.app/",
   },
   {
     title: "Luxe Bookings Website",
@@ -24,6 +26,8 @@ const projects = [
     service: "Booking Website",
     image: "/images/portfolio/booking-preview.jpg",
     text: "A booking-ready website concept with service details, inquiry form direction, and follow-up options.",
+    linkLabel: "View Booking Website",
+    link: "https://techhubsolutions.netlify.app/booking",
   },
   {
     title: "Soft Launch Graphics Kit",
@@ -31,6 +35,8 @@ const projects = [
     service: "Social Launch Kit",
     image: "/images/portfolio/social-preview.jpg",
     text: "A branded launch visuals concept for announcing services, bookings, and website launch updates.",
+    linkLabel: "View Graphics",
+    link: "https://techhubsolutions.netlify.app/",
   },
   {
     title: "Bloom Online Store Setup",
@@ -38,6 +44,8 @@ const projects = [
     service: "Online Store Setup",
     image: "/images/portfolio/store-preview.jpg",
     text: "A custom online store setup concept for a product-based business preparing to sell through a store platform.",
+    linkLabel: "View Store Preview",
+    link: "https://techhubsolutions.netlify.app/",
   },
 ];
 
