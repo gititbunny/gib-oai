@@ -359,6 +359,10 @@
   .case-study-preview-grid {
     grid-template-columns: 1fr;
   }
+
+  .reviews-grid {
+  grid-template-columns: 1fr;
+}
 }
 
 @media (max-width: 720px) {
