@@ -188,6 +188,43 @@ function Pricing() {
         </div>
       </section>
 
+      <section className="section-block custom-pricing-section">
+  <div className="container">
+    <div className="custom-pricing-card">
+      <div>
+        <p className="eyebrow">Custom Services</p>
+        <h2>Online Store Setup</h2>
+        <p>
+          For product-based businesses that want to sell online through Shopify,
+          Wix, Squarespace, or similar store platforms.
+        </p>
+
+        <ul className="custom-pricing-list">
+          <li>Store platform setup</li>
+          <li>Storefront design direction</li>
+          <li>Product page setup guidance</li>
+          <li>Payment and shipping setup guidance</li>
+          <li>Policy page structure</li>
+          <li>Launch graphics optional</li>
+        </ul>
+      </div>
+
+      <div className="custom-pricing-price">
+        <span>Quoted separately</span>
+        <strong>Custom Quote</strong>
+        <p>
+          Pricing depends on the platform, number of products, payment setup,
+          shipping needs, and store complexity.
+        </p>
+
+        <Link to="/contact" className="btn btn-primary">
+          Request Store Quote
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
+
       <section className="section-block pricing-note-section">
         <div className="container">
           <div className="pricing-note-card">
