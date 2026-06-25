@@ -409,11 +409,11 @@
   }
 
   .custom-pricing-card,
-.custom-pricing-price {
+  .custom-pricing-price {
   border-radius: 24px;
 }
 
-.custom-pricing-price {
+  .custom-pricing-price {
   padding: 24px;
 }
 }
