@@ -166,6 +166,26 @@
   font-size: 0.96rem;
 }
 
+.portfolio-project-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 18px;
+  min-height: 44px;
+  padding: 0 18px;
+  border-radius: 999px;
+  background: var(--color-primary);
+  color: white;
+  font-size: 0.9rem;
+  font-weight: 850;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.portfolio-project-link:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 28px rgba(58, 36, 28, 0.16);
+}
+
 .portfolio-showcase-section {
   background:
     radial-gradient(circle at top left, rgba(244, 215, 207, 0.55), transparent 34%),
@@ -271,6 +291,57 @@
   color: var(--color-muted);
   line-height: 1.7;
   font-size: 0.95rem;
+}
+
+/* Reviews Section */
+
+.reviews-section {
+  background:
+    radial-gradient(circle at top right, rgba(244, 215, 207, 0.55), transparent 34%),
+    var(--color-bg);
+}
+
+.reviews-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+
+.review-card {
+  padding: 28px;
+  border-radius: 30px;
+  background: rgba(255, 255, 255, 0.86);
+  border: 1px solid var(--color-border);
+  box-shadow: 0 16px 38px rgba(58, 36, 28, 0.07);
+}
+
+.review-stars {
+  margin-bottom: 18px;
+  color: var(--color-accent);
+  letter-spacing: 0.08em;
+  font-size: 0.92rem;
+  font-weight: 900;
+}
+
+.review-card p {
+  color: var(--color-muted);
+  line-height: 1.8;
+  font-size: 1rem;
+  margin-bottom: 24px;
+}
+
+.review-person {
+  display: grid;
+  gap: 4px;
+}
+
+.review-person strong {
+  color: var(--color-primary);
+}
+
+.review-person span {
+  color: var(--color-muted);
+  font-size: 0.92rem;
 }
 
 /* Portfolio Responsive */
