@@ -78,7 +78,7 @@ function Process() {
             <p className="eyebrow">Process</p>
             <h1>A clear step-by-step process from request to launch.</h1>
             <p className="page-intro">
-              Get It Bunny keeps the project process simple, clear, and
+              Git It Bunny keeps the project process simple, clear, and
               beginner-friendly so you know what happens before work starts,
               during the build, and before your website goes live.
             </p>
