@@ -61,6 +61,11 @@ const servicePreviews = [
     image: "/images/services/social-launch-kit.jpg",
     text: "Branded graphics to announce your website, services, promos, or bookings.",
   },
+ {
+    title: "Online Store Setup",
+    image: "/images/services/online-store.jpg",
+    text: "Custom store setup for product-based businesses using Shopify, Wix, Squarespace, or similar platforms.",
+  },
 ];
 
 const packagePreviews = [
