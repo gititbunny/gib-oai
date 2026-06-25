@@ -176,7 +176,7 @@ function Process() {
               <p className="eyebrow">Ready to Start?</p>
               <h2>Start with the project request form.</h2>
               <p>
-                Share what your business needs, and Get It Bunny can guide you
+                Share what your business needs, and Git It Bunny can guide you
                 toward the right service, package, timeline, and next steps.
               </p>
 
