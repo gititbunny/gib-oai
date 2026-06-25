@@ -391,4 +391,13 @@
     padding: 16px;
     border-radius: 18px;
   }
+
+  .review-card {
+  padding: 24px;
+  border-radius: 24px;
+  }
+
+  .portfolio-project-link {
+  width: 100%;
+  }
 }
