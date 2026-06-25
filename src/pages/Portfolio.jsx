@@ -85,6 +85,24 @@ const caseStudies = [
   },
 ];
 
+const reviews = [
+  {
+    name: "Demo Client",
+    role: "Beauty Business Owner",
+    text: "The website concept made the business feel more polished and easier for customers to understand.",
+  },
+  {
+    name: "Demo Client",
+    role: "Service Provider",
+    text: "The process felt clear, beginner-friendly, and focused on helping customers take action.",
+  },
+  {
+    name: "Demo Client",
+    role: "Small Business Owner",
+    text: "The launch visuals helped the online presence feel more complete and ready to promote.",
+  },
+];
+
 function Portfolio() {
   return (
     <>
