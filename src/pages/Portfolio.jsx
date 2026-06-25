@@ -27,7 +27,7 @@ const projects = [
     image: "/images/portfolio/booking-preview.jpg",
     text: "A booking-ready website concept with service details, inquiry form direction, and follow-up options.",
     linkLabel: "View Booking Website",
-    link: "https://techhubsolutions.netlify.app/booking",
+    link: "https://techhubsolutions.netlify.app/",
   },
   {
     title: "Soft Launch Graphics Kit",
@@ -262,6 +262,33 @@ function Portfolio() {
                 <div>
                   <strong>Result</strong>
                   <p>{study.result}</p>
+                </div>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="section-block reviews-section">
+        <div className="container">
+          <div className="section-heading section-heading-center">
+            <p className="eyebrow">Reviews</p>
+            <h2>Client feedback will live here as Get It Bunny grows.</h2>
+            <p>
+              This section can start with demo-style feedback and be updated with real
+              client reviews as projects are completed.
+            </p>
+          </div>
+
+          <div className="reviews-grid">
+            {reviews.map((review, index) => (
+              <article className="review-card" key={`${review.name}-${index}`}>
+                <div className="review-stars">★★★★★</div>
+                <p>“{review.text}”</p>
+
+                <div className="review-person">
+                  <strong>{review.name}</strong>
+                  <span>{review.role}</span>
                 </div>
               </article>
             ))}
