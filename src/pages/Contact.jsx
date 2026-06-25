@@ -173,6 +173,9 @@ function Contact() {
                     Booking Website Package
                   </option>
                   <option value="Social Launch Kit">Social Launch Kit</option>
+                  <option value="Online Store Setup - Custom Quote">
+                    Online Store Setup - Custom Quote
+                  </option>
                   <option value="Need Guidance">I need guidance</option>
                 </select>
               </label>
