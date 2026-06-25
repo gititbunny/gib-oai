@@ -44,7 +44,7 @@ function Contact() {
                 project communication.
               </p>
               <a
-                href="mailto:hello@getitbunny.co.za?subject=Website%20Project%20Inquiry"
+                href="mailto:gititbunny@gmail.com?subject=Website%20Project%20Inquiry"
                 className="btn btn-secondary"
               >
                 Email Get It Bunny
@@ -59,7 +59,7 @@ function Contact() {
                 should still be sent through the form or email.
               </p>
               <a
-                href="https://wa.me/27000000000?text=Hi%20Get%20It%20Bunny%2C%20I%20have%20a%20quick%20question%20about%20a%20website%20project."
+                href="https://wa.me/27000000000?text=Hi%20Git%20It%20Bunny%2C%20I%20have%20a%20quick%20question%20about%20a%20website%20project."
                 target="_blank"
                 rel="noreferrer"
                 className="btn btn-secondary"
@@ -152,6 +152,7 @@ function Contact() {
                   <option value="Business Website">Business Website</option>
                   <option value="Booking Website">Booking Website</option>
                   <option value="Social Launch Kit">Social Launch Kit</option>
+                  <option value="Online Store Setup">Online Store Setup</option>
                   <option value="Not Sure Yet">Not Sure Yet</option>
                 </select>
               </label>
