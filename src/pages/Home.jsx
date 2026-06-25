@@ -255,9 +255,9 @@ function Home() {
 
               <div className="video-overlay"></div>
 
-              <div className="floating-tag tag-top">Website Design</div>
-              <div className="floating-tag tag-middle">Booking Flow</div>
-              <div className="floating-tag tag-bottom">Launch Graphics</div>
+              <div className="floating-tag tag-top">Websites</div>
+              <div className="floating-tag tag-middle">Bookings</div>
+              <div className="floating-tag tag-bottom">Graphics</div>
             </div>
 
             <div className="hero-mini-card">
