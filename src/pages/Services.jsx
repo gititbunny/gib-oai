@@ -65,6 +65,22 @@ const services = [
       "Booking announcement graphics",
     ],
   },
+  {
+  title: "Online Store Setup",
+  image: "/images/services/online-store.jpg",
+  forText:
+    "Best for product-based businesses that want to sell online using Shopify, Wix, Squarespace, or similar store platforms.",
+  includes: [
+    "Store platform setup",
+    "Homepage or storefront design",
+    "Product page setup",
+    "Basic product upload guidance",
+    "Payment and shipping setup guidance",
+    "Policy page structure",
+    "Mobile-friendly layout",
+    "Launch graphics optional",
+  ],
+},
 ];
 
 const addOns = [
