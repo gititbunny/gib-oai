@@ -26,6 +26,7 @@ function App() {
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/process" element={<Process />} />
           <Route path="/about" element={<About />} />
+          <Route path="/faqs" element={<FAQs />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/terms" element={<Terms />} />
           <Route path="/refund-policy" element={<RefundPolicy />} />
