@@ -1,9 +1,29 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import "../styles/contact.css";
 
 function Contact() {
-   const [privacyAccepted, setPrivacyAccepted] = useState(false);
+  const [privacyAccepted, setPrivacyAccepted] = useState(false);
+  const navigate = useNavigate();
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+
+    const form = event.currentTarget;
+    const formData = new FormData(form);
+
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: new URLSearchParams(formData).toString(),
+    })
+      .then(() => navigate("/success"))
+      .catch((error) => {
+        console.error("Form submission error:", error);
+        alert("Something went wrong. Please try again or email Get It Bunny directly.");
+      });
+  };
+
   return (
     <>
       <section className="page-section contact-hero-section">
@@ -97,10 +117,10 @@ function Contact() {
           <form
             name="project-request"
             method="POST"
-            action="/success"
             data-netlify="true"
             data-netlify-honeypot="bot-field"
             className="project-form"
+            onSubmit={handleSubmit}
           >
             <input type="hidden" name="form-name" value="project-request" />
 
