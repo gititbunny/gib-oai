@@ -72,7 +72,11 @@ function About() {
           </div>
 
           <div className="about-hero-card">
-            <span>GIB</span>
+            <img
+              src="/logo.svg"
+              alt="Get It Bunny logo"
+              className="about-hero-logo"
+            />
             <h2>Websites, visuals, and launch direction for modern small businesses.</h2>
             <p>
               Built for businesses that want to stop looking unfinished online
