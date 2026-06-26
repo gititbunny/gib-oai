@@ -96,6 +96,10 @@
   box-shadow: none;
 }
 
+.hidden-field {
+  display: none;
+}
+
 .project-form-section {
   background:
     radial-gradient(circle at top left, rgba(244, 215, 207, 0.55), transparent 34%),
