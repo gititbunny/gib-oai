@@ -252,8 +252,27 @@ function Contact() {
                 required
               ></textarea>
             </label>
+            <label className="privacy-consent">
+              <input
+                type="checkbox"
+                name="privacyConsent"
+                checked={privacyAccepted}
+                onChange={(event) => setPrivacyAccepted(event.target.checked)}
+                required
+              />
 
-            <button type="submit" className="btn btn-primary form-submit-btn">
+              <span>
+                I agree that Get It Bunny may use my information to respond to my inquiry
+                and prepare a quote. I have read the{" "}
+                <Link to="/privacy-policy">Privacy Policy</Link>.
+              </span>
+            </label>
+
+            <button
+              type="submit"
+              className="btn btn-primary form-submit-btn"
+              disabled={!privacyAccepted}
+            >
               Submit Project Request
             </button>
           </form>
