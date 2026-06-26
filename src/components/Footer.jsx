@@ -25,10 +25,10 @@ function Footer() {
 
         <div>
           <h3>Support</h3>
+           <Link to="/faqs">FAQs</Link>
           <Link to="/terms">Terms & Conditions</Link>
           <Link to="/refund-policy">Refund Policy</Link>
           <Link to="/privacy-policy">Privacy Policy</Link>
-          <Link to="/faqs">FAQs</Link>
         </div>
 
       <div>
