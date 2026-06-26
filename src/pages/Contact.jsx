@@ -1,6 +1,9 @@
+import { useState } from "react";
+import { Link } from "react-router-dom";
 import "../styles/contact.css";
 
 function Contact() {
+   const [privacyAccepted, setPrivacyAccepted] = useState(false);
   return (
     <>
       <section className="page-section contact-hero-section">
