@@ -88,10 +88,13 @@ function About() {
 
       <section className="section-block about-story-section">
         <div className="container about-story-grid">
-          <div className="about-story-image-card">
-            <div className="about-story-mark">GIB</div>
-            <p>Get It Bunny</p>
-          </div>
+    
+            <img
+              src="/logo.svg"
+              alt="Git It Bunny logo"
+              className="about-story-logo"
+            />
+       
 
           <div className="about-story-content">
             <p className="eyebrow">Brand Story</p>
