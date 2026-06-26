@@ -135,7 +135,7 @@ function PrivacyPolicy() {
         <div className="container legal-hero-grid">
           <div>
             <p className="eyebrow">Legal</p>
-            <h1>Privacy Policy / POPIA Notice</h1>
+            <h1>Privacy Policy</h1>
             <p className="page-intro">
               This policy explains how Git It Bunny collects, uses, stores, and
               protects personal information submitted through the website,
