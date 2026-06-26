@@ -98,9 +98,16 @@ function Contact() {
             name="project-request"
             method="POST"
             data-netlify="true"
+            netlify-honeypot="bot-field"
             className="project-form"
           >
             <input type="hidden" name="form-name" value="project-request" />
+
+            <p className="hidden-field">
+              <label>
+                Don’t fill this out if you’re human: <input name="bot-field" />
+              </label>
+            </p>
 
             <div className="form-grid">
               <label>
