@@ -16,10 +16,11 @@ function Footer() {
 
         <div>
           <h3>Explore</h3>
-          <Link to="/services">Services</Link>
-          <Link to="/pricing">Pricing</Link>
-          <Link to="/portfolio">Portfolio</Link>
-          <Link to="/process">Process</Link>
+            <Link to="/services">Services</Link>
+            <Link to="/pricing">Pricing</Link>
+            <Link to="/portfolio">Portfolio</Link>
+            <Link to="/process">Process</Link>
+            <Link to="/about">About</Link>
         </div>
 
         <div>
@@ -27,6 +28,7 @@ function Footer() {
           <Link to="/terms">Terms & Conditions</Link>
           <Link to="/refund-policy">Refund Policy</Link>
           <Link to="/privacy-policy">Privacy Policy</Link>
+          <Link to="/faqs">FAQs</Link>
         </div>
 
       <div>
