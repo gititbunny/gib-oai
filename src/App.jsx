@@ -11,6 +11,7 @@ import Contact from "./pages/Contact";
 import Terms from "./pages/Terms";
 import RefundPolicy from "./pages/RefundPolicy";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
+import FAQs from "./pages/FAQs.jsx";
 
 function App() {
   return (
