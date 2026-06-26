@@ -97,8 +97,9 @@ function Contact() {
           <form
             name="project-request"
             method="POST"
+            action="/success"
             data-netlify="true"
-            netlify-honeypot="bot-field"
+            data-netlify-honeypot="bot-field"
             className="project-form"
           >
             <input type="hidden" name="form-name" value="project-request" />
