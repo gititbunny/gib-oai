@@ -7,10 +7,16 @@
     <title>Git It Bunny</title>
   </head>
   <body>
-    <form name="project-request" netlify netlify-honeypot="bot-field" hidden>
+      <form
+        name="project-request"
+        method="POST"
+        action="/success"
+        data-netlify="true"
+        data-netlify-honeypot="bot-field"
+        hidden
+      >
       <input type="hidden" name="form-name" value="project-request" />
       <input name="bot-field" />
-
       <input type="text" name="name" />
       <input type="text" name="businessName" />
       <input type="email" name="email" />
