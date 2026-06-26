@@ -66,7 +66,7 @@ function Navbar() {
             Contact
           </NavLink>
 
-          <NavLink to="/contact" className="nav-cta" onClick={handleNavClick}>
+          <NavLink to="/contact#project-form" className="nav-cta" onClick={handleNavClick}>
             Start a Project
           </NavLink>
         </div>
