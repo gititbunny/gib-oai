@@ -8,10 +8,12 @@ import Portfolio from "./pages/Portfolio";
 import Process from "./pages/Process";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
+import Success from "./pages/Success.jsx";
 import Terms from "./pages/Terms";
 import RefundPolicy from "./pages/RefundPolicy";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import FAQs from "./pages/FAQs.jsx";
+
 
 function App() {
   return (
@@ -28,6 +30,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/faqs" element={<FAQs />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/success" element={<Success />} />
           <Route path="/terms" element={<Terms />} />
           <Route path="/refund-policy" element={<RefundPolicy />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
