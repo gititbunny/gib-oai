@@ -203,6 +203,54 @@
   cursor: pointer;
 }
 
+.privacy-consent {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 12px;
+  align-items: start;
+  padding: 16px;
+  border-radius: 20px;
+  background: rgba(244, 215, 207, 0.28);
+  border: 1px solid var(--color-border);
+  color: var(--color-muted);
+  font-size: 0.92rem;
+  line-height: 1.6;
+}
+
+.privacy-consent input {
+  width: 18px;
+  height: 18px;
+  margin-top: 3px;
+  accent-color: var(--color-primary);
+  cursor: pointer;
+}
+
+.privacy-consent a {
+  color: var(--color-primary);
+  font-weight: 850;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.form-submit-btn {
+  transition: opacity 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease,
+    background 0.2s ease;
+}
+
+.form-submit-btn:disabled {
+  cursor: not-allowed;
+  opacity: 0.42;
+  box-shadow: none;
+  transform: none;
+  filter: grayscale(1);
+}
+
+.form-submit-btn:disabled:hover {
+  transform: none;
+  box-shadow: none;
+}
+
+
 /* Contact Responsive */
 
 @media (max-width: 900px) {
