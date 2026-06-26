@@ -482,8 +482,8 @@ function Home() {
         revisions before you start a project.
       </p>
 
-      <Link to="/contact" className="btn btn-primary">
-        Ask a Question
+      <Link to="/faqs" className="btn btn-secondary">
+        View All FAQs
       </Link>
     </div>
 
