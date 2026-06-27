@@ -1,10 +1,11 @@
-import { useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { useEffect, useState } from "react";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import "../styles/contact.css";
 
 function Contact() {
   const [privacyAccepted, setPrivacyAccepted] = useState(false);
   const navigate = useNavigate();
+  const location = useLocation();
 
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -23,6 +24,19 @@ function Contact() {
         alert("Something went wrong. Please try again or email Get It Bunny directly.");
       });
   };
+
+  useEffect(() => {
+  if (location.hash === "#project-form") {
+    const formSection = document.getElementById("project-form");
+
+    if (formSection) {
+      formSection.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+    }
+  }
+}, [location]);
 
   return (
     <>

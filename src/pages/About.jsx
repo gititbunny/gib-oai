@@ -148,7 +148,7 @@ function About() {
               graphics to support a launch.
             </p>
 
-            <Link to="/contact" className="btn btn-primary">
+            <Link to="/contact#project-form" className="btn btn-primary">
               Start a Project
             </Link>
           </div>
@@ -229,7 +229,7 @@ function About() {
               </p>
 
               <div className="final-cta-actions">
-                <Link to="/contact" className="btn btn-primary">
+                <Link to="/contact#project-form" className="btn btn-primary">
                   Start Your Project
                 </Link>
 

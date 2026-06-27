@@ -157,7 +157,7 @@ function Pricing() {
                   ))}
                 </ul>
 
-                <Link to="/contact" className="btn btn-pricing">
+                <Link to="/contact#project-form" className="btn btn-pricing">
                   Start With This Package
                 </Link>
               </article>
@@ -217,7 +217,7 @@ function Pricing() {
           shipping needs, and store complexity.
         </p>
 
-        <Link to="/contact" className="btn btn-primary">
+        <Link to="/contact#project-form" className="btn btn-primary">
           Request Store Quote
         </Link>
       </div>
@@ -257,7 +257,7 @@ function Pricing() {
               </p>
 
               <div className="final-cta-actions">
-                <Link to="/contact" className="btn btn-primary">
+                <Link to="/contact#project-form" className="btn btn-primary">
                   Start Your Project
                 </Link>
 

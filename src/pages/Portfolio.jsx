@@ -160,7 +160,7 @@ function Portfolio() {
               </p>
             </div>
 
-            <Link to="/contact" className="btn btn-secondary">
+            <Link to="/contact#project-form" className="btn btn-primary">
               Start a Similar Project
             </Link>
           </div>
@@ -309,7 +309,7 @@ function Portfolio() {
               </p>
 
               <div className="final-cta-actions">
-                <Link to="/contact" className="btn btn-primary">
+                <Link to="/contact#project-form" className="btn btn-primary">
                   Start Your Project
                 </Link>
 

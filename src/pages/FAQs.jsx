@@ -200,7 +200,7 @@ function FAQs() {
               </p>
 
               <div className="final-cta-actions">
-                <Link to="/contact" className="btn btn-primary">
+                <Link to="/contact#project-form" className="btn btn-primary">
                   Start Your Project
                 </Link>
 
