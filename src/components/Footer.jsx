@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import { Link } from "react-router-dom";
 import {
   FaInstagram,
   FaTiktok,
@@ -52,39 +51,54 @@ function Footer() {
 
         <div>
           <h3>Explore</h3>
-            <Link to="/services">Services</Link>
-            <Link to="/pricing">Pricing</Link>
-            <Link to="/portfolio">Portfolio</Link>
-            <Link to="/process">Process</Link>
-            <Link to="/about">About</Link>
+          <Link to="/services">Services</Link>
+          <Link to="/pricing">Pricing</Link>
+          <Link to="/portfolio">Portfolio</Link>
+          <Link to="/process">Process</Link>
+          <Link to="/about">About</Link>
         </div>
 
         <div>
           <h3>Support</h3>
-           <Link to="/faqs">FAQs</Link>
+          <Link to="/faqs">FAQs</Link>
           <Link to="/terms">Terms & Conditions</Link>
           <Link to="/refund-policy">Refund Policy</Link>
           <Link to="/privacy-policy">Privacy Policy</Link>
         </div>
 
-      <div>
-        <h3>Contact</h3>
+        <div>
+          <h3>Contact</h3>
 
-        <a href="mailto:gitbunny@gmail.com?subject=Website%20Project%20Inquiry">
-          gitbunny@gmail.com
-        </a>
+          <a href="mailto:gitbunny@gmail.com?subject=Website%20Project%20Inquiry">
+            gitbunny@gmail.com
+          </a>
 
-        <Link to="/contact">Project Request Form</Link>
+          <Link to="/contact#project-form">Project Request Form</Link>
 
-        <a
-          href="https://wa.me/27000000000?text=Hi%20Git%20It%20Bunny%2C%20I%20have%20a%20quick%20question%20about%20a%20website%20project."
-          target="_blank"
-          rel="noreferrer"
-        >
-          Quick WhatsApp Question
-        </a>
+          <a
+            href="https://wa.me/27000000000?text=Hi%20Git%20It%20Bunny%2C%20I%20have%20a%20quick%20question%20about%20a%20website%20project."
+            target="_blank"
+            rel="noreferrer"
+          >
+            Quick WhatsApp Question
+          </a>
+
+          <div className="footer-social-icons" aria-label="Social media links">
+            {socialLinks.map((social) => (
+              <a
+                key={social.name}
+                href={social.url}
+                target="_blank"
+                rel="noreferrer"
+                aria-label={social.name}
+                title={social.name}
+              >
+                {social.icon}
+              </a>
+            ))}
+          </div>
+        </div>
       </div>
-    </div>
 
       <div className="footer-bottom">
         <p>© {currentYear} Git It Bunny. All rights reserved.</p>
