@@ -9,6 +9,33 @@ import {
 } from "react-icons/fa";
 import "../styles/contact.css";
 
+const socialLinks = [
+  {
+    name: "Instagram",
+    url: "https://instagram.com/getitbunny",
+    icon: <FaInstagram />,
+  },
+  {
+    name: "TikTok",
+    url: "https://tiktok.com/@getitbunny",
+    icon: <FaTiktok />,
+  },
+  {
+    name: "Facebook",
+    url: "https://facebook.com/getitbunny",
+    icon: <FaFacebookF />,
+  },
+  {
+    name: "Pinterest",
+    url: "https://pinterest.com/getitbunny",
+    icon: <FaPinterestP />,
+  },
+  {
+    name: "LinkedIn",
+    url: "https://linkedin.com/company/getitbunny",
+    icon: <FaLinkedinIn />,
+  },
+];
 
 function Contact() {
   const [privacyAccepted, setPrivacyAccepted] = useState(false);
