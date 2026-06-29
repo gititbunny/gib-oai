@@ -73,6 +73,27 @@ function Footer() {
       </div>
     </div>
 
+    <div>
+  <h3>Follow</h3>
+  <p className="footer-social-text">
+    Website tips, design ideas, launch visuals, and small business online
+    presence inspiration.
+  </p>
+
+  <div className="footer-social-links">
+    {socialLinks.map((social) => (
+      <a
+        key={social.name}
+        href={social.url}
+        target="_blank"
+        rel="noreferrer"
+      >
+        {social.name}
+      </a>
+    ))}
+  </div>
+</div>
+
       <div className="footer-bottom">
         <p>© {currentYear} Git It Bunny. All rights reserved.</p>
       </div>
