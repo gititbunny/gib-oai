@@ -1,41 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
-import {
-  FaInstagram,
-  FaTiktok,
-  FaFacebookF,
-  FaPinterestP,
-  FaLinkedinIn,
-} from "react-icons/fa";
 import "../styles/contact.css";
-
-const socialLinks = [
-  {
-    name: "Instagram",
-    url: "https://instagram.com/getitbunny",
-    icon: <FaInstagram />,
-  },
-  {
-    name: "TikTok",
-    url: "https://tiktok.com/@getitbunny",
-    icon: <FaTiktok />,
-  },
-  {
-    name: "Facebook",
-    url: "https://facebook.com/getitbunny",
-    icon: <FaFacebookF />,
-  },
-  {
-    name: "Pinterest",
-    url: "https://pinterest.com/getitbunny",
-    icon: <FaPinterestP />,
-  },
-  {
-    name: "LinkedIn",
-    url: "https://linkedin.com/company/getitbunny",
-    icon: <FaLinkedinIn />,
-  },
-];
 
 function Contact() {
   const [privacyAccepted, setPrivacyAccepted] = useState(false);
@@ -355,35 +320,6 @@ function Contact() {
           </form>
         </div>
       </section>
-
-      <section className="section-block contact-social-section">
-  <div className="container">
-    <div className="contact-social-card">
-      <div>
-        <p className="eyebrow">Follow Get It Bunny</p>
-        <h2>See website tips, design ideas, and launch visuals.</h2>
-        <p>
-          Follow Get It Bunny for small business website inspiration, creative
-          launch graphics, and behind-the-scenes design direction.
-        </p>
-      </div>
-
-      <div className="contact-social-icons">
-        {socialLinks.map((social) => (
-          <a
-            key={social.name}
-            href={social.url}
-            target="_blank"
-            rel="noreferrer"
-            aria-label={`Follow Get It Bunny on ${social.name}`}
-          >
-            {social.icon}
-          </a>
-        ))}
-      </div>
-    </div>
-  </div>
-</section>
     </>
   );
 }
