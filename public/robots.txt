@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://gititbunny.netlify.app/sitemap.xml
