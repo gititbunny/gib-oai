@@ -355,6 +355,35 @@ function Contact() {
           </form>
         </div>
       </section>
+
+      <section className="section-block contact-social-section">
+  <div className="container">
+    <div className="contact-social-card">
+      <div>
+        <p className="eyebrow">Follow Get It Bunny</p>
+        <h2>See website tips, design ideas, and launch visuals.</h2>
+        <p>
+          Follow Get It Bunny for small business website inspiration, creative
+          launch graphics, and behind-the-scenes design direction.
+        </p>
+      </div>
+
+      <div className="contact-social-icons">
+        {socialLinks.map((social) => (
+          <a
+            key={social.name}
+            href={social.url}
+            target="_blank"
+            rel="noreferrer"
+            aria-label={`Follow Get It Bunny on ${social.name}`}
+          >
+            {social.icon}
+          </a>
+        ))}
+      </div>
+    </div>
+  </div>
+</section>
     </>
   );
 }
