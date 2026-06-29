@@ -1,6 +1,14 @@
 import { useEffect, useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
+import {
+  FaInstagram,
+  FaTiktok,
+  FaFacebookF,
+  FaPinterestP,
+  FaLinkedinIn,
+} from "react-icons/fa";
 import "../styles/contact.css";
+
 
 function Contact() {
   const [privacyAccepted, setPrivacyAccepted] = useState(false);
