@@ -1,28 +1,5 @@
 import { Link } from "react-router-dom";
 
-const socialLinks = [
-  {
-    name: "Instagram",
-    url: "https://instagram.com/getitbunny",
-  },
-  {
-    name: "TikTok",
-    url: "https://tiktok.com/@getitbunny",
-  },
-  {
-    name: "Facebook",
-    url: "https://facebook.com/getitbunny",
-  },
-  {
-    name: "Pinterest",
-    url: "https://pinterest.com/getitbunny",
-  },
-  {
-    name: "LinkedIn",
-    url: "https://linkedin.com/company/getitbunny",
-  },
-];
-
 function Footer() {
   const currentYear = new Date().getFullYear();
 
@@ -72,27 +49,6 @@ function Footer() {
         </a>
       </div>
     </div>
-
-    <div>
-  <h3>Follow</h3>
-  <p className="footer-social-text">
-    Website tips, design ideas, launch visuals, and small business online
-    presence inspiration.
-  </p>
-
-  <div className="footer-social-links">
-    {socialLinks.map((social) => (
-      <a
-        key={social.name}
-        href={social.url}
-        target="_blank"
-        rel="noreferrer"
-      >
-        {social.name}
-      </a>
-    ))}
-  </div>
-</div>
 
       <div className="footer-bottom">
         <p>© {currentYear} Git It Bunny. All rights reserved.</p>
