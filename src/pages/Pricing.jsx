@@ -251,7 +251,7 @@ function Pricing() {
               <p className="eyebrow">Start With Clarity</p>
               <h2>Need help choosing the right package?</h2>
               <p>
-                Send your project details through the form, and Get It Bunny can
+                Send your project details through the form, and Git It Bunny can
                 help you choose the package that fits your business, budget, and
                 launch goals.
               </p>
@@ -262,10 +262,10 @@ function Pricing() {
                 </Link>
 
                 <a
-                  href="mailto:hello@getitbunny.co.za?subject=Pricing%20Inquiry"
+                  href="mailto:gititbunny@gmail.com?subject=Pricing%20Inquiry"
                   className="btn btn-secondary"
                 >
-                  Email Get It Bunny
+                  Email Git It Bunny
                 </a>
               </div>
             </div>
