@@ -186,7 +186,7 @@ const faqPreviews = [
   {
     question: "Do I need to have a domain before contacting you?",
     answer:
-      "No. Get It Bunny can help you choose and set up a domain, but the domain should be bought under your own name or business account.",
+      "No. Git It Bunny can help you choose and set up a domain, but the domain should be bought under your own name or business account.",
   },
   {
   question: "Do booking websites confirm appointments automatically?",
@@ -305,7 +305,7 @@ function Home() {
               <p className="eyebrow">Main Services</p>
               <h2>Everything your business needs to look ready online.</h2>
               <p>
-                From a single landing page to a booking-ready website, Get It
+                From a single landing page to a booking-ready website, Git It
                 Bunny helps you create a professional online presence with
                 matching launch visuals.
               </p>
@@ -383,10 +383,10 @@ function Home() {
 <section className="section-block why-section">
   <div className="container why-grid">
     <div className="why-content">
-      <p className="eyebrow">Why Choose Get It Bunny</p>
+      <p className="eyebrow">Why Choose Git It Bunny</p>
       <h2>Not just a website. A cleaner way to launch your business online.</h2>
       <p>
-        Get It Bunny helps you create a professional online presence that feels
+        Git It Bunny helps you create a professional online presence that feels
         clear, trustworthy, and easy for customers to act on.
       </p>
 
@@ -414,7 +414,7 @@ function Home() {
       <p className="eyebrow">How It Works</p>
       <h2>A simple process from first message to website launch.</h2>
       <p>
-        You do not need to understand complicated tech. Get It Bunny guides you
+        You do not need to understand complicated tech. Git It Bunny guides you
         through each stage clearly, from your first request to going live.
       </p>
     </div>
@@ -442,7 +442,7 @@ function Home() {
     <div className="section-heading section-heading-row">
       <div>
         <p className="eyebrow">Portfolio Preview</p>
-        <h2>Preview the kind of online presence Get It Bunny creates.</h2>
+        <h2>Preview the kind of online presence Git It Bunny creates.</h2>
         <p>
           Explore website and launch visual concepts made for service-based
           businesses that want to look professional, clear, and ready to book.
@@ -505,30 +505,30 @@ function Home() {
         <p className="eyebrow">Start Your Project</p>
         <h2>Ready to make your business look official online?</h2>
        <p>
-  Whether you need a landing page, business website, booking website, or
-  launch graphics, start with the project form or send an email so your
-  inquiry is clear, professional, and easy to follow up on.
-</p>
+        Whether you need a landing page, business website, booking website, or
+        launch graphics, start with the project form or send an email so your
+        inquiry is clear, professional, and easy to follow up on.
+      </p>
 
       <div className="final-cta-actions">
       <Link to="/contact#project-form" className="btn btn-primary">
         Start Your Project
       </Link>
 
-  <a
-    href="mailto:gititbunny@gmail.com?subject=Website%20Project%20Inquiry&body=Hi%20Get%20It%20Bunny%2C%0D%0A%0D%0AI%E2%80%99m%20interested%20in%20starting%20a%20website%20project.%0D%0A%0D%0AMy%20business%20name%20is%3A%0D%0AI%20need%20help%20with%3A%0D%0AMy%20ideal%20deadline%20is%3A%0D%0A%0D%0AThank%20you."
-    className="btn btn-secondary"
-  >
-    Email Get It Bunny
-  </a>
-</div>
+      <a
+        href="mailto:gititbunny@gmail.com?subject=Website%20Project%20Inquiry&body=Hi%20Get%20It%20Bunny%2C%0D%0A%0D%0AI%E2%80%99m%20interested%20in%20starting%20a%20website%20project.%0D%0A%0D%0AMy%20business%20name%20is%3A%0D%0AI%20need%20help%20with%3A%0D%0AMy%20ideal%20deadline%20is%3A%0D%0A%0D%0AThank%20you."
+        className="btn btn-secondary"
+      >
+        Email Git It Bunny
+      </a>
       </div>
+    </div>
 
       <div className="final-cta-note">
-  <span>Project Form</span>
-  <span>Email First</span>
-  <span>Quick Follow-up</span>
-</div>
+        <span>Project Form</span>
+        <span>Email First</span>
+        <span>Quick Follow-up</span>
+      </div>
     </div>
   </div>
 </section>
