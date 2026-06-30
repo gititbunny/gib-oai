@@ -155,7 +155,7 @@ function Portfolio() {
               <h2>Portfolio previews built around clarity, trust, and action.</h2>
               <p>
                 These concepts show the kind of structure, style, and launch
-                support Get It Bunny can create for service-based and
+                support Git It Bunny can create for service-based and
                 product-based businesses.
               </p>
             </div>
@@ -210,7 +210,7 @@ function Portfolio() {
             <p className="eyebrow">What the work focuses on</p>
             <h2>Design that helps customers understand and take action.</h2>
             <p>
-              Get It Bunny projects are not just about making pages look pretty.
+              Git It Bunny projects are not just about making pages look pretty.
               Each layout is designed to help customers quickly understand the
               business, view services, trust the brand, and know how to inquire
               or start a project.
@@ -273,7 +273,7 @@ function Portfolio() {
         <div className="container">
           <div className="section-heading section-heading-center">
             <p className="eyebrow">Reviews</p>
-            <h2>Client feedback will live here as Get It Bunny grows.</h2>
+            <h2>Client feedback will live here as Git It Bunny grows.</h2>
             <p>
               This section can start with demo-style feedback and be updated with real
               client reviews as projects are completed.
@@ -304,7 +304,7 @@ function Portfolio() {
               <h2>Let’s create a professional online presence for your business.</h2>
               <p>
                 Start with the project request form and share what you need.
-                Get It Bunny can help you choose the right website, booking,
+                Git It Bunny can help you choose the right website, booking,
                 store, or launch visual direction.
               </p>
 
