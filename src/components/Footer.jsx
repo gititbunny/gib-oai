@@ -10,27 +10,27 @@ import {
 const socialLinks = [
   {
     name: "Instagram",
-    url: "https://instagram.com/getitbunny",
+    url: "https://instagram.com/gititbunny",
     icon: <FaInstagram />,
   },
   {
     name: "TikTok",
-    url: "https://tiktok.com/@getitbunny",
+    url: "https://tiktok.com/@gititbunny",
     icon: <FaTiktok />,
   },
   {
     name: "Facebook",
-    url: "https://facebook.com/getitbunny",
+    url: "https://facebook.com/gititbunny",
     icon: <FaFacebookF />,
   },
   {
     name: "Pinterest",
-    url: "https://pinterest.com/getitbunny",
+    url: "https://pinterest.com/gititbunny",
     icon: <FaPinterestP />,
   },
   {
     name: "LinkedIn",
-    url: "https://linkedin.com/company/getitbunny",
+    url: "https://linkedin.com/company/gititbunny",
     icon: <FaLinkedinIn />,
   },
 ];
