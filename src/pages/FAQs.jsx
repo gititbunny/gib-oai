@@ -6,14 +6,14 @@ const faqGroups = [
     title: "Projects & Services",
     questions: [
       {
-        question: "What services does Get It Bunny offer?",
+        question: "What services does Git It Bunny offer?",
         answer:
-          "Get It Bunny offers landing pages, business websites, booking websites, social launch graphics, and custom online store setup through platforms like Shopify, Wix, Squarespace, or similar tools.",
+          "Git It Bunny offers landing pages, business websites, booking websites, social launch graphics, and custom online store setup through platforms like Shopify, Wix, Squarespace, or similar tools.",
       },
       {
         question: "Do you only work with service-based businesses?",
         answer:
-          "Service-based businesses are the main focus, but Get It Bunny can also help product-based businesses that need online store setup, product pages, launch graphics, or a clearer online presence.",
+          "Service-based businesses are the main focus, but Git It Bunny can also help product-based businesses that need online store setup, product pages, launch graphics, or a clearer online presence.",
       },
       {
         question: "Can I request something custom?",
@@ -38,7 +38,7 @@ const faqGroups = [
       {
         question: "Are domain, hosting, Shopify, Wix, or Squarespace fees included?",
         answer:
-          "No. Third-party costs such as domain registration, hosting, Shopify, Wix, Squarespace, premium plugins, paid apps, email accounts, or platform subscriptions are separate from Get It Bunny service fees unless stated in a custom quote.",
+          "No. Third-party costs such as domain registration, hosting, Shopify, Wix, Squarespace, premium plugins, paid apps, email accounts, or platform subscriptions are separate from Git It Bunny service fees unless stated in a custom quote.",
       },
     ],
   },
@@ -71,9 +71,9 @@ const faqGroups = [
           "You should provide your business name, contact details, services, prices, images, brand colours, logo if available, page content, social links, and any important information customers need to know.",
       },
       {
-        question: "Can Get It Bunny help if I do not have all my content ready?",
+        question: "Can Git It Bunny help if I do not have all my content ready?",
         answer:
-          "Yes. Get It Bunny can help guide the structure and direction of your content, but you are still responsible for providing accurate business details, prices, service information, policies, and final approvals.",
+          "Yes. Git It Bunny can help guide the structure and direction of your content, but you are still responsible for providing accurate business details, prices, service information, policies, and final approvals.",
       },
       {
         question: "Do I need professional photos?",
@@ -106,7 +106,7 @@ const faqGroups = [
     title: "Communication & Support",
     questions: [
       {
-        question: "How do clients contact Get It Bunny?",
+        question: "How do clients contact Git It Bunny?",
         answer:
           "Clients can start with the project request form or email. WhatsApp can be used for quick questions or follow-ups, but project details are best handled through the form or email for clarity.",
       },
@@ -195,7 +195,7 @@ function FAQs() {
               <h2>Start with the project request form.</h2>
               <p>
                 You do not need to know the perfect package yet. Share what your
-                business needs and Get It Bunny can guide you toward the right
+                business needs and Git It Bunny can guide you toward the right
                 service, quote, and next step.
               </p>
 
