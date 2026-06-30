@@ -4,7 +4,6 @@ import {
   FaTiktok,
   FaFacebookF,
   FaPinterestP,
-  FaLinkedinIn,
 } from "react-icons/fa6";
 
 const socialLinks = [
@@ -27,11 +26,6 @@ const socialLinks = [
     name: "Pinterest",
     url: "https://pinterest.com/gititbunny",
     icon: <FaPinterestP />,
-  },
-  {
-    name: "LinkedIn",
-    url: "https://linkedin.com/company/gititbunny",
-    icon: <FaLinkedinIn />,
   },
 ];
 
