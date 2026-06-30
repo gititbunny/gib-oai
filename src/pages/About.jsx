@@ -52,10 +52,10 @@ function About() {
       <section className="page-section about-hero-section">
         <div className="container about-hero-grid">
           <div>
-            <p className="eyebrow">About Get It Bunny</p>
+            <p className="eyebrow">About Git It Bunny</p>
             <h1>A creative web and design studio for businesses ready to look serious online.</h1>
             <p className="page-intro">
-              Get It Bunny helps service-based and product-based businesses
+              Git It Bunny helps service-based and product-based businesses
               create clear, polished, mobile-friendly online spaces that make it
               easier for customers to understand, trust, and contact them.
             </p>
@@ -74,7 +74,7 @@ function About() {
           <div className="about-hero-card">
             <img
               src="/logo.svg"
-              alt="Get It Bunny logo"
+              alt="Git It Bunny logo"
               className="about-hero-logo"
             />
             <h2>Websites, visuals, and launch direction for modern small businesses.</h2>
@@ -100,7 +100,7 @@ function About() {
             <p className="eyebrow">Brand Story</p>
             <h2>Playful name. Serious execution.</h2>
             <p>
-              Get It Bunny blends a playful creative identity with practical web
+              Git It Bunny blends a playful creative identity with practical web
               and design execution. The name carries a fun, memorable energy,
               while the work focuses on helping businesses look professional,
               organized, and ready for customers.
@@ -143,7 +143,7 @@ function About() {
             <p className="eyebrow">Who GIB Helps</p>
             <h2>Built for small businesses, service providers, and launch-ready brands.</h2>
             <p>
-              Get It Bunny is especially useful for businesses that need a
+              Git It Bunny is especially useful for businesses that need a
               website, booking request flow, online store direction, or branded
               graphics to support a launch.
             </p>
@@ -166,7 +166,7 @@ function About() {
           <div className="section-heading section-heading-row">
             <div>
               <p className="eyebrow">Capabilities</p>
-              <h2>What Get It Bunny can help with.</h2>
+              <h2>What Git It Bunny can help with.</h2>
               <p>
                 From website structure to launch visuals, the goal is to create
                 an online presence that feels connected and ready to promote.
@@ -198,7 +198,7 @@ function About() {
 
             <div>
               <p>
-                Get It Bunny was created for business owners who have the skill,
+                Git It Bunny was created for business owners who have the skill,
                 service, or product, but need help turning it into a clear online
                 presence. The focus is not just on making something look nice.
                 It is about building a website and visual direction that makes
@@ -224,7 +224,7 @@ function About() {
               <h2>Let’s shape your online presence with clarity.</h2>
               <p>
                 Start with the project request form and share what your business
-                needs. Get It Bunny can guide you toward the right service,
+                needs. Git It Bunny can guide you toward the right service,
                 package, timeline, and next step.
               </p>
 
