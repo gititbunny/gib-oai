@@ -112,7 +112,7 @@ function Services() {
           </div>
 
           <div className="services-hero-card">
-            <p>What Get It Bunny creates</p>
+            <p>What Git It Bunny creates</p>
             <strong>
               Clean websites, clear service pages, inquiry forms, and launch
               graphics that help your business show up confidently online.
@@ -185,7 +185,7 @@ function Services() {
               <h2>Not sure which service fits your business?</h2>
               <p>
                 Start with the project request form and explain what you need.
-                Get It Bunny can help you decide whether a landing page,
+                Git It Bunny can help you decide whether a landing page,
                 business website, booking website, or launch kit makes the most
                 sense.
               </p>
@@ -199,7 +199,7 @@ function Services() {
                   href="mailto:hello@getitbunny.co.za?subject=Service%20Inquiry"
                   className="btn btn-secondary"
                 >
-                  Email Get It Bunny
+                  Email Git It Bunny
                 </a>
               </div>
             </div>
