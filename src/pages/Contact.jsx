@@ -21,7 +21,7 @@ function Contact() {
       .then(() => navigate("/success"))
       .catch((error) => {
         console.error("Form submission error:", error);
-        alert("Something went wrong. Please try again or email Get It Bunny directly.");
+        alert("Something went wrong. Please try again or email Git It Bunny directly.");
       });
   };
 
@@ -44,7 +44,7 @@ function Contact() {
         <div className="container contact-hero-grid">
           <div>
             <p className="eyebrow">Start a Project</p>
-            <h1>Tell Get It Bunny what you need help with.</h1>
+            <h1>Tell Git It Bunny what you need help with.</h1>
             <p className="page-intro">
               Start with the project request form or send an email so your
               inquiry is clear, professional, and easy to follow up on.
@@ -84,7 +84,7 @@ function Contact() {
                 href="mailto:gititbunny@gmail.com?subject=Website%20Project%20Inquiry"
                 className="btn btn-secondary"
               >
-                Email Get It Bunny
+                Email Git It Bunny
               </a>
             </article>
 
@@ -304,7 +304,7 @@ function Contact() {
               />
 
               <span>
-                I agree that Get It Bunny may use my information to respond to my inquiry
+                I agree that Git It Bunny may use my information to respond to my inquiry
                 and prepare a quote. I have read the{" "}
                 <Link to="/privacy-policy">Privacy Policy</Link>.
               </span>
