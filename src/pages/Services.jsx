@@ -196,7 +196,7 @@ function Services() {
                 </Link>
 
                 <a
-                  href="mailto:hello@getitbunny.co.za?subject=Service%20Inquiry"
+                  href="mailto:gititbunny@gmail.com?subject=Service%20Inquiry"
                   className="btn btn-secondary"
                 >
                   Email Git It Bunny
