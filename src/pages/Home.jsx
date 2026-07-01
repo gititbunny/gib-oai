@@ -246,7 +246,7 @@ function Home() {
             <div className="hero-video-card">
               <video
                 className="hero-video"
-                src="/videos/hero-video.mp4"
+                src="/videos/hero-video (3).mp4"
                 autoPlay
                 muted
                 loop
