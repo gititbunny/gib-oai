@@ -8,35 +8,35 @@ const audienceGroups = [
   },
   {
     title: "Nail Techs",
-    image: "/images/audience/hair-stylist.jpg",
+    image: "/images/audience/nail-tech.jpg",
   },
   {
     title: "Makeup Artists",
-    image: "/images/audience/hair-stylist.jpg",
+    image: "/images/audience/makeup-artist.jpg",
   },
   {
     title: "Photographers",
-    image: "/images/audience/hair-stylist.jpg",
+    image: "/images/audience/photographer.jpg",
   },
   {
-    title: "Coaches",
-    image: "/images/audience/hair-stylist.jpg",
+    title: "Trainers",
+    image: "/images/audience/trainer.jpg",
   },
   {
     title: "Tutors",
-    image: "/images/audience/hair-stylist.jpg",
+    image: "/images/audience/tutor.jpg",
   },
   {
     title: "Consultants",
-    image: "/images/audience/hair-stylist.jpg",
+    image: "/images/audience/consultant.jpg",
   },
   {
     title: "Event Planners",
-    image: "/images/audience/hair-stylist.jpg",
+    image: "/images/audience/event-planner.jpg",
   },
   {
     title: "Small Local Businesses",
-    image: "/images/audience/hair-stylist.jpg",
+    image: "/images/audience/small-business.jpg",
   },
 ];
 
