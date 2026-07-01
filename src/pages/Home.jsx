@@ -48,12 +48,12 @@ const servicePreviews = [
   },
   {
     title: "Business Websites",
-    image: "/images/services/social-launch-kit.jpg",
+    image: "/images/services/business-website.png",
     text: "A full website with pages like Home, About, Services, Gallery, and Contact.",
   },
   {
     title: "Booking Websites",
-    image: "/images/services/landing-page.jpg",
+    image: "/images/services/booking-website.jpg",
     text: "A website with a booking request form and email or WhatsApp follow-up options.",
   },
   {
