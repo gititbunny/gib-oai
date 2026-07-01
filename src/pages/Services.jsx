@@ -18,7 +18,7 @@ const services = [
   },
   {
     title: "Business Websites",
-    image: "/images/services/landing-page.jpg",
+    image: "/images/services/business-website.png",
     forText:
       "Best for businesses that need a full online presence with clear pages and professional structure.",
     includes: [
@@ -36,7 +36,7 @@ const services = [
   },
   {
     title: "Booking Websites",
-    image: "/images/services/landing-page.jpg",
+    image: "/images/services/booking-website.jpg",
     forText:
       "Best for service providers who need clients to send booking requests or appointment inquiries.",
     includes: [
