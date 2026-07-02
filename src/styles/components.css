@@ -4,7 +4,7 @@
   position: sticky;
   top: 0;
   z-index: 50;
-  background: rgba(255, 250, 243, 0.88);
+  background: rgba(239, 255, 213, 0.88);
   backdrop-filter: blur(18px);
   border-bottom: 1px solid var(--color-border);
 }
@@ -103,8 +103,8 @@
 
 .site-footer {
   padding-top: 72px;
-  background: var(--color-primary);
-  color: white;
+  background: var(--color-bg);
+  color: #000;
 }
 
 .footer-grid {
@@ -120,7 +120,7 @@
 
 .site-footer p,
 .site-footer a {
-  color: rgba(255, 255, 255, 0.72);
+  color: rgba(0, 0, 0, 0.72);
 }
 
 .site-footer a {
