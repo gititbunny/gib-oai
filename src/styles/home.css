@@ -331,8 +331,8 @@
 
 .packages-preview-section {
   background:
-    radial-gradient(circle at top left, rgba(244, 215, 207, 0.55), transparent 30%),
-    radial-gradient(circle at bottom right, rgba(201, 151, 93, 0.18), transparent 34%),
+    radial-gradient(circle at top left, rgba(3, 181, 170, 0.55), transparent 30%),
+    radial-gradient(circle at bottom right, rgba(255, 186, 0, 0.18), transparent 34%),
     var(--color-bg);
 }
 
