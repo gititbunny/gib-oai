@@ -44,7 +44,7 @@
 
 .btn:hover {
   transform: translateY(-2px);
-  background: linear-gradient(140deg, #a9ff00, #ffba00);
+  background: linear-gradient(140deg, #03b5aa, #ffba00);
   color: white;
 }
 
