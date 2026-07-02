@@ -87,8 +87,8 @@
   z-index: 0;
   border-radius: 40px;
   background:
-    radial-gradient(circle at top left, rgba(255, 186, 0, 0.9), transparent 34%),
-    radial-gradient(circle at bottom right, rgba(3, 181, 170, 0.32), transparent 38%);
+    radial-gradient(circle at top left,rgba(3, 181, 170, 0.32), transparent 34%),
+    radial-gradient(circle at bottom right, rgba(255, 186, 0, 0.9),  transparent 38%);
   filter: blur(4px);
 }
 
