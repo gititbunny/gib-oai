@@ -38,31 +38,31 @@ function Navbar() {
         </button>
 
         <div className={`nav-links ${menuOpen ? "nav-links-open" : ""}`}>
-          <NavLink to="/" onClick={handleNavClick}>
+          <NavLink to="/" className="nav-link" onClick={handleNavClick}>
             Home
           </NavLink>
 
-          <NavLink to="/services" onClick={handleNavClick}>
+          <NavLink to="/services" className="nav-link" onClick={handleNavClick}>
             Services
           </NavLink>
 
-          <NavLink to="/pricing" onClick={handleNavClick}>
+          <NavLink to="/pricing" className="nav-link" onClick={handleNavClick}>
             Pricing
           </NavLink>
 
-          <NavLink to="/portfolio" onClick={handleNavClick}>
+          <NavLink to="/portfolio" className="nav-link" onClick={handleNavClick}>
             Portfolio
           </NavLink>
 
-          <NavLink to="/process" onClick={handleNavClick}>
+          <NavLink to="/process" className="nav-link" onClick={handleNavClick}>
             Process
           </NavLink>
 
-          <NavLink to="/about" onClick={handleNavClick}>
+          <NavLink to="/about" className="nav-link" onClick={handleNavClick}>
             About
           </NavLink>
 
-          <NavLink to="/contact" onClick={handleNavClick}>
+          <NavLink to="/contact" className="nav-link" onClick={handleNavClick}>
             Contact
           </NavLink>
 
