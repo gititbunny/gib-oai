@@ -55,7 +55,11 @@
 }
 
 .nav-links a.active {
-  color: var(--color-text);
+  color: #ffba00;
+}
+
+.nav-link:hover {
+  color: #03b5aa;
 }
 
 .nav-links .nav-cta {
@@ -63,6 +67,16 @@
   border-radius: 999px;
   background: var(--color-primary);
   color: white !important;
+}
+
+.nav-cta { 
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.nav-cta:hover {
+  transform: translateY(-2px);
+  background: linear-gradient(140deg, #03b5aa, #ffba00);
+  color: white;
 }
 
 .menu-toggle {
