@@ -291,7 +291,7 @@
 
 .service-preview-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 22px 48px rgba(58, 36, 28, 0.12);
+  box-shadow: 0 22px 48px rgba(3, 181, 170, 0.12);
 }
 
 .service-preview-image {
@@ -371,7 +371,7 @@
 
 .package-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 24px 54px rgba(58, 36, 28, 0.13);
+  box-shadow: 0 24px 54px rgba(3, 181, 170, 0.13);
 }
 
 .featured-package {
