@@ -3,6 +3,8 @@
 .hero-section {
   padding: 110px 0;
   overflow: hidden;
+   background:
+    linear-gradient(180deg,  var(--color-bg) 0%,#ffffff 100%);
 }
 
 .hero-grid {
@@ -181,7 +183,7 @@
 
 .audience-section {
     background:
-    linear-gradient(180deg, #efffd5 0%, var(--color-bg) 100%);
+    linear-gradient(180deg, #ffffff 0%, var(--color-bg) 100%);
 }
 
 .audience-grid {
