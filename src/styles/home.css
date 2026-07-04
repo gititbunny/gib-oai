@@ -455,13 +455,18 @@
   width: 100%;
   margin-top: auto;
   background: var(--color-secondary);
-  color: var(--color-primary);
+  color: white;
 }
 
 .featured-package .btn-package {
   background: white;
   color: var(--color-primary);
 }
+
+.btn-package:hover {
+  transform: translateY(-2px);
+  background: linear-gradient(140deg, #03b5aa, #ffba00);
+  color: white;}
 
 .pricing-note {
   max-width: 780px;
