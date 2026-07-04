@@ -553,7 +553,7 @@
 }
 
 .why-card p {
-  color: var(--color-muted);
+  color: var(--color-text);
   line-height: 1.7;
   font-size: 0.96rem;
 }
