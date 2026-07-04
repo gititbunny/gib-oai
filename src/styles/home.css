@@ -125,9 +125,9 @@
   z-index: 2;
   padding: 10px 14px;
   border-radius: 999px;
-  background: rgba(255, 250, 243, 0.88);
+  background: rgba(239, 255, 213, 0.88);
   backdrop-filter: blur(14px);
-  color: var(--color-primary);
+  color: black;
   border: 1px solid rgba(255, 255, 255, 0.64);
   box-shadow: 0 14px 30px rgba(33, 26, 23, 0.12);
   font-size: 0.82rem;
