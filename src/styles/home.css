@@ -655,7 +655,7 @@
 
 .portfolio-preview-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 24px 54px rgba(58, 36, 28, 0.13);
+  box-shadow: 0 24px 54px rgba(255, 186, 0, 0.13);
 }
 
 .portfolio-preview-image {
