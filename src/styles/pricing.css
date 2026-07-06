@@ -305,7 +305,7 @@
 
 .custom-pricing-price span {
   margin-bottom: 12px;
-  color: var(--color-secondary);
+  color: var(--color-accent);
   font-size: 0.82rem;
   font-weight: 850;
   text-transform: uppercase;
