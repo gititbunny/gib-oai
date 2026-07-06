@@ -23,7 +23,7 @@
 
 .pricing-hero-card p {
   margin-bottom: 10px;
-  color: var(--color-secondary);
+  color: var(--color-border);
   font-size: 0.82rem;
   font-weight: 850;
   text-transform: uppercase;
