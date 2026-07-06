@@ -262,10 +262,11 @@
   line-height: 1;
   letter-spacing: -0.055em;
   margin-bottom: 18px;
+  color: var(--color-accent);
 }
 
 .custom-pricing-card p {
-  color: var(--color-muted);
+  color: var(--color-text);
   font-size: 1.04rem;
   line-height: 1.8;
 }
@@ -305,7 +306,7 @@
 
 .custom-pricing-price span {
   margin-bottom: 12px;
-  color: var(--color-accent);
+  color: var(--color-border);
   font-size: 0.82rem;
   font-weight: 850;
   text-transform: uppercase;
