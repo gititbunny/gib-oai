@@ -1,9 +1,8 @@
 /* Services Page */
 
 .services-hero-section {
-  background:
-    radial-gradient(circle at top right, rgba(244, 215, 207, 0.72), transparent 32%),
-    var(--color-bg);
+    background: linear-gradient(180deg,  var(--color-bg) 0%,#ffffff 100%);
+
 }
 
 .services-hero-grid {
