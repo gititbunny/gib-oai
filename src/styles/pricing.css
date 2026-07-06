@@ -179,9 +179,8 @@
 }
 
 .add-on-pricing-section {
-  background:
-    radial-gradient(circle at top left, rgba(244, 215, 207, 0.55), transparent 34%),
-    var(--color-bg);
+    background:
+    linear-gradient(180deg, #ffffff 0%, var(--color-bg) 100%);
 }
 
 .add-on-pricing-grid {
@@ -333,7 +332,8 @@
 }
 
 .pricing-note-section {
-  background: #ffffff;
+  background: linear-gradient(180deg,  var(--color-bg) 0%,#ffffff 100%);
+
 }
 
 .pricing-note-card {
