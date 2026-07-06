@@ -1,9 +1,7 @@
 /* Pricing Page */
 
 .pricing-hero-section {
-  background:
-    radial-gradient(circle at top right, rgba(244, 215, 207, 0.72), transparent 32%),
-    var(--color-bg);
+  background: linear-gradient(180deg,  var(--color-bg) 0%,#ffffff 100%);
 }
 
 .pricing-hero-grid {
@@ -45,7 +43,10 @@
 }
 
 .pricing-packages-section {
-  background: #ffffff;
+  background:
+    radial-gradient(circle at top left, rgba(3, 181, 170, 0.55), transparent 30%),
+    radial-gradient(circle at bottom right, rgba(255, 186, 0, 0.18), transparent 34%),
+    var(--color-bg);
 }
 
 .pricing-packages-grid {
@@ -249,8 +250,9 @@
   padding: clamp(28px, 5vw, 52px);
   border-radius: 34px;
   background:
-    radial-gradient(circle at top left, rgba(244, 215, 207, 0.6), transparent 32%),
-    var(--color-surface);
+    radial-gradient(circle at top left, rgba(3, 181, 170, 0.55), transparent 30%),
+    radial-gradient(circle at bottom right, rgba(255, 186, 0, 0.18), transparent 34%),
+    var(--color-bg);
   border: 1px solid var(--color-border);
   box-shadow: 0 16px 38px rgba(58, 36, 28, 0.08);
 }
