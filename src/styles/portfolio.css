@@ -4,6 +4,7 @@
   background:
     radial-gradient(circle at top right, rgba(244, 215, 207, 0.72), transparent 32%),
     var(--color-bg);
+    padding-bottom: 0px !important;
 }
 
 .portfolio-hero-grid {
@@ -70,7 +71,7 @@
 }
 
 .portfolio-categories-section {
-  background: #ffffff;
+  background: var(--color-bg);
 }
 
 .portfolio-category-pills {

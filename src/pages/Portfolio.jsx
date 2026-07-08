@@ -135,9 +135,7 @@ function Portfolio() {
             </div>
           </div>
         </div>
-      </section>
-
-      <section className="section-block portfolio-categories-section">
+        <section className="section-block portfolio-categories-section">
         <div className="container">
           <div className="portfolio-category-pills">
             {categories.map((category) => (
@@ -146,6 +144,9 @@ function Portfolio() {
           </div>
         </div>
       </section>
+      </section>
+
+     
 
       <section className="section-block featured-work-section">
         <div className="container">
