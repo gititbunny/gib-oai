@@ -2,7 +2,7 @@
 
 .portfolio-hero-section {
   background:
-    radial-gradient(circle at top right, rgba(244, 215, 207, 0.72), transparent 32%),
+    radial-gradient(circle at top right, rgba(3, 181, 170, 0.24), transparent 32%),
     var(--color-bg);
   padding-bottom: 24px !important;
 
