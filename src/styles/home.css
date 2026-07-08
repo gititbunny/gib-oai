@@ -114,9 +114,7 @@
 .video-overlay {
   position: absolute;
   inset: 0;
-  background:
-    linear-gradient(90deg, rgba(33, 26, 23, 0.18), rgba(33, 26, 23, 0)),
-    linear-gradient(0deg, rgba(33, 26, 23, 0.28), rgba(33, 26, 23, 0));
+  background: transparent;
 }
 
 .floating-tag {
