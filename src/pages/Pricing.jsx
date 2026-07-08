@@ -4,7 +4,7 @@ import "../styles/pricing.css";
 const pricingPackages = [
   {
     name: "Landing Page Package",
-    price: "From R3,500",
+    price: "From $800",
     timeline: "Estimated timeline: 5–7 business days",
     bestFor: "Best for one service, promo, campaign, event, or launch.",
     features: [
@@ -18,7 +18,7 @@ const pricingPackages = [
   },
   {
     name: "Business Website Package",
-    price: "From R8,500",
+    price: "From $2,400",
     timeline: "Estimated timeline: 10–14 business days",
     bestFor: "Best for a full professional business website.",
     features: [
@@ -34,7 +34,7 @@ const pricingPackages = [
   },
   {
     name: "Booking Website Package",
-    price: "From R12,500",
+    price: "From $3,400",
     timeline: "Estimated timeline: 2–3 weeks",
     bestFor: "Best for service businesses that need booking requests.",
     features: [
@@ -114,7 +114,7 @@ function Pricing() {
 
           <div className="pricing-hero-card">
             <p>Starting from</p>
-            <strong>R3,500</strong>
+            <strong>$800</strong>
             <span>Landing pages, websites, booking pages, and launch graphics.</span>
           </div>
         </div>
