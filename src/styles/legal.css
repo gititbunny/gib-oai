@@ -1,8 +1,8 @@
 /* Legal Pages */
 
 .legal-hero-section {
-  background:
-    radial-gradient(circle at top right, rgba(244, 215, 207, 0.72), transparent 32%),
+ background:
+    radial-gradient(circle at top right, rgba(3, 181, 170, 0.24), transparent 32%),
     var(--color-bg);
 }
 
@@ -24,7 +24,7 @@
 .legal-hero-card span {
   display: block;
   margin-bottom: 12px;
-  color: var(--color-secondary);
+  color: var(--color-border);
   font-size: 0.82rem;
   font-weight: 850;
   text-transform: uppercase;
@@ -81,8 +81,9 @@
 }
 
 .legal-sidebar a:hover {
-  background: rgba(244, 215, 207, 0.55);
-  color: var(--color-primary);
+  transform: translateY(-2px);
+  background: linear-gradient(140deg, #03b5aa, #ffba00);
+  color: white;
 }
 
 .legal-content-card {
@@ -100,7 +101,7 @@
   padding: 18px 20px;
   border-radius: 22px;
   background: rgba(244, 215, 207, 0.5);
-  color: var(--color-primary);
+  color: var(--color-text);
   line-height: 1.65;
 }
 
@@ -131,7 +132,7 @@
 }
 
 .legal-text-section p {
-  color: var(--color-muted);
+  color: var(--color-text);
   line-height: 1.85;
   font-size: 0.98rem;
 }
