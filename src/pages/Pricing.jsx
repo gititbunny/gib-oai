@@ -52,47 +52,47 @@ const pricingPackages = [
 const addOnPricing = [
   {
     item: "Extra website page",
-    price: "From R700",
+    price: "From $180",
   },
   {
     item: "Extra social media post",
-    price: "From R250",
+    price: "From $45",
   },
   {
     item: "Instagram / WhatsApp story graphic",
-    price: "From R150",
+    price: "From $35",
   },
   {
     item: "Promo poster / flyer",
-    price: "From R400",
+    price: "From $80",
   },
   {
     item: "Price list design",
-    price: "From R500",
+    price: "From $100",
   },
   {
     item: "Service menu design",
-    price: "From R500",
+    price: "From $120",
   },
   {
     item: "Basic logo refresh",
-    price: "From R1,000",
+    price: "From $250",
   },
   {
     item: "Mini brand kit",
-    price: "From R2,500",
+    price: "From $600",
   },
   {
     item: "Domain / hosting setup",
-    price: "From R750",
+    price: "From $150",
   },
   {
     item: "Booking form setup",
-    price: "From R1,000",
+    price: "From $250",
   },
   {
     item: "Monthly support",
-    price: "From R750/month",
+    price: "From $150/month",
   },
 ];
 
