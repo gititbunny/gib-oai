@@ -62,7 +62,7 @@ function Contact() {
         <div className="container">
           <div className="contact-options-grid">
             <article className="contact-option-card featured-contact-option">
-              <span>01</span>
+              <span>Option 01</span>
               <h2>Project Request Form</h2>
               <p>
                 Best for new website projects, package inquiries, booking
@@ -74,7 +74,7 @@ function Contact() {
             </article>
 
             <article className="contact-option-card">
-              <span>02</span>
+              <span>Option 02</span>
               <h2>Email</h2>
               <p>
                 Best for formal inquiries, follow-ups, quotes, documents, and
@@ -89,7 +89,7 @@ function Contact() {
             </article>
 
             <article className="contact-option-card">
-              <span>03</span>
+              <span>Option 03</span>
               <h2>Quick Question</h2>
               <p>
                 WhatsApp is available for quick questions, but project details
