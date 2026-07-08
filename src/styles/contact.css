@@ -194,6 +194,16 @@
   outline: none;
 }
 
+.project-form select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M7.41%208.59L12%2013.17l4.59-4.58L18%2010l-6%206-6-6z%22/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  background-size: 16px;
+}
+
 .project-form input:focus,
 .project-form select:focus,
 .project-form textarea:focus {
@@ -202,8 +212,18 @@
 }
 
 .project-form textarea {
+  min-height: 180px;
   margin: 18px 0;
   resize: vertical;
+}
+
+.full-width-field {
+  grid-column: 1 / -1;
+   margin-top: 15px;
+}
+
+.full-width-field textarea {
+  margin-top: 10px;
 }
 
 .form-submit-btn {
