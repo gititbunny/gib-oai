@@ -71,7 +71,7 @@ const servicePreviews = [
 const packagePreviews = [
   {
     name: "Landing Page",
-    price: "From R3,500",
+    price: "From $800",
     bestFor: "Best for one service, promo, campaign, event, or launch.",
     features: [
       "One-page website",
@@ -84,7 +84,7 @@ const packagePreviews = [
   },
   {
     name: "Business Website",
-    price: "From R8,500",
+    price: "From $2,400",
     bestFor: "Best for a full professional business website.",
     features: [
       "3–5 website pages",
@@ -98,7 +98,7 @@ const packagePreviews = [
   },
   {
     name: "Booking Website",
-    price: "From R12,500",
+    price: "From $3,400",
     bestFor: "Best for service businesses that need booking requests.",
     features: [
       "5-page website",
