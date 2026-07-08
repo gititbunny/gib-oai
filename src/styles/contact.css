@@ -1,9 +1,7 @@
 /* Contact Page */
 
 .contact-hero-section {
-  background:
-    radial-gradient(circle at top right, rgba(244, 215, 207, 0.7), transparent 32%),
-    var(--color-bg);
+   background: linear-gradient(180deg,  var(--color-bg) 0%,#ffffff 100%);
 }
 
 .contact-hero-grid {
@@ -23,7 +21,7 @@
 
 .contact-intro-card p {
   margin-bottom: 10px;
-  color: var(--color-secondary);
+  color: var(--color-border);
   font-size: 0.82rem;
   font-weight: 850;
   text-transform: uppercase;
@@ -38,6 +36,7 @@
 
 .contact-options-section {
   background: #ffffff;
+  padding-top: 4px !important;
 }
 
 .contact-options-grid {
@@ -59,6 +58,10 @@
 .featured-contact-option {
   background: var(--color-primary);
   color: white;
+}
+
+.featured-contact-option span {
+  color: var(--color-border) !important;
 }
 
 .contact-option-card span {
@@ -101,9 +104,8 @@
 }
 
 .project-form-section {
-  background:
-    radial-gradient(circle at top left, rgba(244, 215, 207, 0.55), transparent 34%),
-    var(--color-bg);
+ background:
+    linear-gradient(180deg, #ffffff 0%, var(--color-bg) 100%);
 }
 
 .form-layout-grid {
@@ -131,6 +133,10 @@
   font-size: 1.08rem;
   line-height: 1.8;
   margin-bottom: 28px;
+}
+
+.form-side-content .eyebrow{
+  color: var(--color-secondary);
 }
 
 .form-note-card {
@@ -196,7 +202,7 @@
 }
 
 .project-form textarea {
-  margin-top: 18px;
+  margin: 18px 0;
   resize: vertical;
 }
 
