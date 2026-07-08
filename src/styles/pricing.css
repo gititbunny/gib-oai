@@ -210,6 +210,10 @@
   line-height: 1.8;
 }
 
+.add-on-pricing-content .eyebrow {
+  color: var(--color-accent);
+}
+
 .add-on-pricing-list {
   display: grid;
   gap: 12px;
