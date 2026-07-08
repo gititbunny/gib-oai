@@ -1,7 +1,9 @@
 /* Pricing Page */
 
 .pricing-hero-section {
-  background: linear-gradient(180deg,  var(--color-bg) 0%,#ffffff 100%);
+   background:
+    radial-gradient(circle at bottom left, rgba(3, 181, 170, 0.55), transparent 30%),
+    var(--color-bg);
 }
 
 .pricing-hero-grid {
@@ -44,7 +46,7 @@
 
 .pricing-packages-section {
   background:
-    radial-gradient(circle at top left, rgba(3, 181, 170, 0.55), transparent 30%),
+    radial-gradient(circle at top left, rgba(3, 181, 170, 0.55), transparent 26%),
     radial-gradient(circle at bottom right, rgba(255, 186, 0, 0.18), transparent 34%),
     var(--color-bg);
 }
@@ -243,10 +245,7 @@
 /* Custom Pricing Section */
 
 .custom-pricing-section {
-  background:
-    radial-gradient(circle at top left, rgba(3, 181, 170, 0.55), transparent 30%),
-    radial-gradient(circle at bottom right, rgba(255, 186, 0, 0.18), transparent 34%),
-    var(--color-bg);
+  background: linear-gradient(180deg,  var(--color-bg) 0%, #b6f0ec 100%);
 }
 
 .custom-pricing-card {
@@ -338,7 +337,7 @@
 }
 
 .pricing-note-section {
-  background: linear-gradient(180deg,  var(--color-bg) 0%,#ffffff 100%);
+  background: #b6f0ec;
 
 }
 
@@ -347,11 +346,9 @@
   margin: 0 auto;
   padding: clamp(28px, 5vw, 52px);
   border-radius: 34px;
-  background:
-    radial-gradient(circle at top right, rgba(244, 215, 207, 0.65), transparent 32%),
-    var(--color-surface);
-  border: 1px solid var(--color-border);
-  box-shadow: 0 16px 38px rgba(58, 36, 28, 0.08);
+  background: var(--color-surface);
+  border: 1px solid #b6f0ec;
+  box-shadow: 0 16px 38px rgba(255, 186, 0, 0.2);
 }
 
 .pricing-note-card h2 {
@@ -366,6 +363,10 @@
   color: var(--color-muted);
   font-size: 1.04rem;
   line-height: 1.8;
+}
+
+.pricing-note-card .eyebrow {
+  color: var(--color-accent);
 }
 
 /* Pricing Responsive */
