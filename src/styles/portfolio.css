@@ -101,6 +101,10 @@
   gap: 18px;
 }
 
+.btn-primary {
+  background: #03b5aa;
+}
+
 .featured-work-card {
   overflow: hidden;
   border-radius: 30px;
