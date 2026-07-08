@@ -185,7 +185,8 @@
 
 .portfolio-project-link:hover {
   transform: translateY(-2px);
-  box-shadow: 0 14px 28px rgba(58, 36, 28, 0.16);
+  background: linear-gradient(140deg, #03b5aa, #ffba00);
+  color: white;
 }
 
 .portfolio-showcase-section {
