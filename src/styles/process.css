@@ -1,9 +1,8 @@
 /* Process Page */
 
 .process-hero-section {
-  background:
-    radial-gradient(circle at top right, rgba(244, 215, 207, 0.72), transparent 32%),
-    var(--color-bg);
+   background: linear-gradient(180deg,  var(--color-bg) 0%,#ffffff 100%);
+   padding-bottom: 24px !important;
 }
 
 .process-hero-grid {
@@ -23,7 +22,7 @@
 
 .process-hero-card p {
   margin-bottom: 10px;
-  color: var(--color-secondary);
+  color: var(--color-border);
   font-size: 0.82rem;
   font-weight: 850;
   text-transform: uppercase;
@@ -68,7 +67,7 @@
   width: 170px;
   height: 170px;
   border-radius: 999px;
-  background: rgba(201, 151, 93, 0.14);
+  background: rgba(239, 255, 213, 0.4);
 }
 
 .full-process-card:hover {
@@ -135,6 +134,10 @@
   margin-bottom: 28px;
 }
 
+.process-notes-content .eyebrow {
+  color: var(--color-secondary);
+}
+
 .process-notes-list {
   display: grid;
   gap: 16px;
@@ -162,7 +165,8 @@
 }
 
 .client-ready-section {
-  background: #ffffff;
+  background: var(--color-bg);
+  padding-top: 24px !important;
 }
 
 .client-ready-card {
@@ -172,11 +176,9 @@
   align-items: start;
   padding: clamp(28px, 5vw, 52px);
   border-radius: 34px;
-  background:
-    radial-gradient(circle at top right, rgba(244, 215, 207, 0.65), transparent 32%),
-    var(--color-surface);
-  border: 1px solid var(--color-border);
-  box-shadow: 0 16px 38px rgba(58, 36, 28, 0.08);
+  background: var(--color-surface);
+  border: 1px solid #efffd5;
+  box-shadow: 0 16px 38px rgba(255, 186, 0, 0.2);
 }
 
 .client-ready-card h2 {
@@ -191,6 +193,10 @@
   color: var(--color-muted);
   font-size: 1.04rem;
   line-height: 1.8;
+}
+
+.client-ready-card .eyebrow {
+  color: var(--color-accent);
 }
 
 .client-ready-card ul {
