@@ -365,7 +365,7 @@
 }
 
 .pricing-note-card .eyebrow {
-  color: var(--color-border);
+  color: var(--color-accent);
 }
 
 /* Pricing Responsive */
@@ -399,6 +399,9 @@
 }
 
 @media (max-width: 620px) {
+  .pricing-hero-section {
+    background: linear-gradient(180deg,  var(--color-bg) 0%,#ffffff 100%);
+  }
   .pricing-hero-card,
   .pricing-package-card,
   .pricing-note-card {
