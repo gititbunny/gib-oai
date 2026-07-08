@@ -63,8 +63,8 @@ function Footer() {
         <div>
           <h3>Contact</h3>
 
-          <a href="mailto:gitbunny@gmail.com?subject=Website%20Project%20Inquiry">
-            gitbunny@gmail.com
+          <a href="mailto:gititunny@gmail.com?subject=Website%20Project%20Inquiry">
+            gititunny@gmail.com
           </a>
 
           <Link to="/contact#project-form">Project Request Form</Link>
