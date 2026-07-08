@@ -228,7 +228,6 @@
   padding: 18px 20px;
   border-radius: 20px;
   background: rgba(255, 255, 255, 0.86);
-  border: 1px solid var(--color-border);
   box-shadow: 0 12px 26px rgba(58, 36, 28, 0.06);
 }
 
@@ -366,12 +365,16 @@
 }
 
 .pricing-note-card .eyebrow {
-  color: var(--color-accent);
+  color: var(--color-border);
 }
 
 /* Pricing Responsive */
 
 @media (max-width: 900px) {
+
+  .pricing-hero-section {
+   background: linear-gradient(180deg,  var(--color-bg) 0%,#ffffff 100%);
+}
   .pricing-hero-grid,
   .pricing-packages-grid,
   .add-on-pricing-grid {
