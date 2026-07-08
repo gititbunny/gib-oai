@@ -231,11 +231,12 @@ function Contact() {
                   <option value="" disabled>
                     Select your budget range
                   </option>
-                  <option value="R3,500 - R5,000">R3,500 - R5,000</option>
-                  <option value="R5,000 - R8,500">R5,000 - R8,500</option>
-                  <option value="R8,500 - R12,500">R8,500 - R12,500</option>
-                  <option value="R12,500+">R12,500+</option>
-                  <option value="Not Sure Yet">Not sure yet</option>
+                    <option value="$800 - $1,200">$800 - $1,200</option>
+                    <option value="$1,200 - $2,400">$1,200 - $2,400</option>
+                    <option value="$2,400 - $3,400">$2,400 - $3,400</option>
+                    <option value="$3,400 - $5,000">$3,400 - $5,000</option>
+                    <option value="$5,000+">$5,000+</option>
+                    <option value="Not sure yet">Not sure yet</option>
                 </select>
               </label>
 
@@ -285,11 +286,10 @@ function Contact() {
               </label>
             </div>
 
-            <label>
+            <label className="full-width-field">
               Short project description
               <textarea
                 name="projectDescription"
-                rows="6"
                 placeholder="Tell me about your business, what you need, and what you want the website or graphics to help you achieve."
                 required
               ></textarea>
