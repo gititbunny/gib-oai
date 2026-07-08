@@ -127,7 +127,7 @@ function RefundPolicy() {
 
           <div className="legal-hero-card">
             <span>Last updated</span>
-            <strong>June 2026</strong>
+            <strong>July 2026</strong>
             <p>
               Please read this policy before paying a deposit or starting a
               project.
@@ -140,7 +140,7 @@ function RefundPolicy() {
         <div className="container legal-layout">
           <aside className="legal-sidebar">
             <p className="eyebrow">Support Pages</p>
-            <Link to="/faqs">FAQs</Link>
+             <Link to="/faqs">FAQs</Link>
             <Link to="/terms">Terms & Conditions</Link>
             <Link to="/refund-policy">Refund Policy</Link>
             <Link to="/privacy-policy">Privacy Policy</Link>
