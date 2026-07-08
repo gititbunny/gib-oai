@@ -508,6 +508,10 @@
   margin-bottom: 30px;
 }
 
+.why-content .eyebrow {
+  color: var(--color-secondary);
+}
+
 .why-card-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -736,6 +740,10 @@
   font-size: 1.08rem;
   line-height: 1.8;
   margin-bottom: 30px;
+}
+
+.faq-preview-content .eyebrow {
+  color: var(--color-accent);
 }
 
 .faq-preview-list {
