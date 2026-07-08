@@ -1,8 +1,8 @@
 /* FAQs Page */
 
 .faqs-hero-section {
-  background:
-    radial-gradient(circle at top right, rgba(244, 215, 207, 0.72), transparent 32%),
+ background:
+    radial-gradient(circle at bottom left, rgba(3, 181, 170, 0.24), transparent 32%),
     var(--color-bg);
 }
 
@@ -24,7 +24,7 @@
 .faqs-hero-card span {
   display: block;
   margin-bottom: 12px;
-  color: var(--color-secondary);
+  color: var(--color-border);
   font-size: 0.82rem;
   font-weight: 850;
   text-transform: uppercase;
@@ -77,8 +77,9 @@
 }
 
 .faqs-sidebar a:hover {
-  background: rgba(244, 215, 207, 0.55);
-  color: var(--color-primary);
+  transform: translateY(-2px);
+  background: linear-gradient(140deg, #03b5aa, #ffba00);
+  color: white;
 }
 
 .faqs-groups {
