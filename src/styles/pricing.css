@@ -170,7 +170,7 @@
   width: 100%;
   margin-top: auto;
   background: var(--color-secondary);
-  color: var(--color-primary);
+  color: var(--color-surface);
 }
 
 .featured-pricing-package .btn-pricing {
@@ -326,7 +326,7 @@
   margin-bottom: 28px;
 }
 
-.custom-pricing-price .btn-primary {
+.custom-pricing-price .btn-primary{
   background: white;
   color: var(--color-primary);
   box-shadow: none;
