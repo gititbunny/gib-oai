@@ -36,7 +36,8 @@
 }
 
 .services-detail-section {
-  background: #ffffff;
+     background:
+    linear-gradient(180deg, #ffffff 0%, var(--color-bg) 100%);
 }
 
 .services-detail-grid {
